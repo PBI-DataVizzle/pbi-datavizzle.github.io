@@ -7,6 +7,10 @@
   icon: "fa-brands fa-x-twitter"
   url:  'https://www.linkedin.com/in/imranhaqbi/'
 
+- type: medium
+  icon: "fa-brands fa-medium"
+  url:  'https://medium.com/@pbi-datavizzle'
+
 #- type: email
 #  icon: "fas fa-envelope"
 #  noblank: true # open link in current tab
@@ -24,9 +28,9 @@
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/imranhaqbi/'                  # Fill with your Linkedin homepage
 #
-# - type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+- type: stack-overflow
+  icon: 'fab fa-stack-overflow'
+  url:  'https://stackoverflow.com/users/22231370/pbi-datavizzle'                  # Fill with your stackoverflow homepage
 #
 - type: bluesky
   icon: 'fa-brands fa-bluesky'
