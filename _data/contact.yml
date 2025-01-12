@@ -7,9 +7,9 @@
   icon: "fa-brands fa-x-twitter"
   url:  'https://www.linkedin.com/in/imranhaqbi/'
 
-- type: medium
-  icon: "fa-brands fa-medium"
-  url:  'https://medium.com/@pbi-datavizzle'
+#- type: medium
+#  icon: "fa-brands fa-medium"
+#  url:  'https://medium.com/@pbi-datavizzle'
 
 #- type: email
 #  icon: "fas fa-envelope"
