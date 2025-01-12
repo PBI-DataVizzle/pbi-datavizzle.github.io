@@ -8,7 +8,7 @@ tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthro
 summary: Walkthrough
 description: Showcasing the art of the possible 🕊️🧙🏼‍♂️✨
 image: 
-    path: assets\headers\deneb-ep10.svg
+    path: assets/headers/deneb-ep10.svg
     width: 1200
     height: 630
     alt: Power BI and Deneb
