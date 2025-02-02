@@ -315,16 +315,26 @@ Finally, for that extra finesse 🪄, let’s add a splash of colour:
 <br>
 <br>
 
-***
+<p style="text-align: center;">. . .</p>
 
-# 💫 S'ACABAO 💫
+<h1 style="text-align: center;">💫 S'ACABAO 💫</h1>
 
 This is the end of the article — but only the beginning of the series! 😋 Thank you for sticking with me and stay tuned for the next Deneb/Vega-Lite episode soon! 🧙‍♂️
 
-# PBIX
+
+<p style="text-align: center;">. . .</p>
+
+<h1 style="text-align: center;">🧙🏼‍♂️ PBIX 📊 </h1>
+
 [^fn-pbix]: 🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
 
-***
+*** 
+<p style="text-align: center;">. . .</p>
 
-###### My body is 90% coffee ☕ - the other 10% is classified 😏 🤖
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle)  
+<h4 style="text-align: center;"> Oh, I almost affogato tell you 😏 My body is 90% coffee ☕ <br> the rest is classified 🤓 🤖 </h4>
+
+<div style="text-align: center;">
+  <a href="https://buymeacoffee.com/pbidatavizzle">
+    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee">
+  </a>
+</div>
