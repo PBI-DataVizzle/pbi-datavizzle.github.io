@@ -39,6 +39,10 @@
 - type: reddit
   icon: 'fa-brands fa-reddit'
   url: 'https://www.reddit.com/user/PBIQueryous/'                   # Fill with your Reddit profile link
+
+- type: buymeacoffee
+  icon: 'fa-solid fa-hand-holding-heart'
+  url: 'https://buymeacoffee.com/pbidatavizzle'                   # Fill with your buymeacoffee profile link
 #
 # - type: threads
 #   icon: 'fa-brands fa-threads'
