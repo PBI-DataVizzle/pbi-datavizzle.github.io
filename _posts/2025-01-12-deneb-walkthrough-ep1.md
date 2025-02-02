@@ -321,15 +321,20 @@ Finally, for that extra finesse 🪄, let’s add a splash of colour:
 
 This is the end of the article — but only the beginning of the series! 😋 Thank you for sticking with me and stay tuned for the next Deneb/Vega-Lite episode soon! 🧙‍♂️
 
+***
+<br>
 
-<p style="text-align: center;">. . .</p>
 
 <h1 style="text-align: center;">🧙🏼‍♂️ PBIX 📊 </h1>
 
 [^fn-pbix]: 🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
 
 *** 
+<br>
+
 <p style="text-align: center;">. . .</p>
+
+<h3 style="text-align: center;"> ☕ un cafelito porfa ☕ </h3>
 
 <h4 style="text-align: center;"> Oh, I almost affogato tell you 😏 My body is 90% coffee ☕ <br> the rest is classified 🤓 🤖 </h4>
 
