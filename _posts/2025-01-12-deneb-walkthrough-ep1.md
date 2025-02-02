@@ -20,6 +20,9 @@ hidden: false
 > 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!
 {: .prompt-info }
 
+
+[^fn-pbix]: PBIX: [Github Repo](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
+
 ---
 
 
@@ -317,29 +320,33 @@ Finally, for that extra finesse 🪄, let’s add a splash of colour:
 
 <p style="text-align: center;">. . .</p>
 
-<h1 style="text-align: center;">💫 S'ACABAO 💫</h1>
+<h2 style="text-align: center;"> - EN FIN SERAFIN -</h2>
 
 This is the end of the article — but only the beginning of the series! 😋 Thank you for sticking with me and stay tuned for the next Deneb/Vega-Lite episode soon! 🧙‍♂️
-
-***
 <br>
 
+***
+<h2 style="text-align: center;"> ✨ PBIX ✨ </h2>
 
-<h1 style="text-align: center;">🧙🏼‍♂️ PBIX 📊 </h1>
+🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
 
-[^fn-pbix]: 🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
+***
 
-*** 
 <br>
 
 <p style="text-align: center;">. . .</p>
-
-<h3 style="text-align: center;"> ☕ un cafelito porfa ☕ </h3>
-
-<h4 style="text-align: center;"> Oh, I almost affogato tell you 😏 My body is 90% coffee ☕ <br> the rest is classified 🤓 🤖 </h4>
+<h6 style="text-align: center;"> ☕ un cafelito porfa ☕ </h6>
+<h6 style="text-align: center;"> Oh, I almost affogato tell you 😏 My body is 90% coffee ☕ <br> the rest is classified 🤓 🤖 </h6>
 
 <div style="text-align: center;">
   <a href="https://buymeacoffee.com/pbidatavizzle">
     <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee">
   </a>
 </div>
+
+<p style="text-align: center;">. . .</p>
+
+***
+
+---
+## Footnotes
