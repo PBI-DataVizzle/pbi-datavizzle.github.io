@@ -12,6 +12,9 @@ image:
     width: 700
     height: 400
     alt: Power BI and Deneb
+mermaid: true
+published: true
+hidden: true
 ---
 > 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!
 {: .prompt-info }

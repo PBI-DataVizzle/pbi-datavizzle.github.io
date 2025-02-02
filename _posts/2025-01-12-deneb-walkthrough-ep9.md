@@ -14,7 +14,7 @@ image:
     alt: Power BI and Deneb
 mermaid: true
 published: true
-hidden: false
+hidden: true
 
 ---
 > 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!
