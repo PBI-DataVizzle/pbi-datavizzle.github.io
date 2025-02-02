@@ -320,14 +320,14 @@ Finally, for that extra finesse 🪄, let’s add a splash of colour:
 
 <p style="text-align: center;">. . .</p>
 
-<h2 style="text-align: center;"> - EN FIN SERAFIN -</h2>
-
-This is the end of the article — but only the beginning of the series! 😋 Thank you for sticking with me and stay tuned for the next Deneb/Vega-Lite episode soon! 🧙‍♂️
 <br>
 
-***
-<h2 style="text-align: center;"> ✨ PBIX ✨ </h2>
+## En Fin, Serafin
+This is the end of the article — but only the beginning of the series! 😋 Thank you for sticking with me and stay tuned for the next Deneb/Vega-Lite episode soon! 🧙‍♂️
 
+<br>
+
+## ⏬ PBIX  ⏏️
 🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
 
 ***
