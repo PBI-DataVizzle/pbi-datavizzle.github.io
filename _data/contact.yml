@@ -7,9 +7,9 @@
   icon: "fa-brands fa-x-twitter"
   url:  'https://www.linkedin.com/in/imranhaqbi/'
 
-#- type: medium
-#  icon: "fa-brands fa-medium"
-#  url:  'https://medium.com/@pbi-datavizzle'
+- type: medium
+  icon: "fa-brands fa-medium"
+  url:  'https://medium.com/@pbi-datavizzle'
 
 #- type: email
 #  icon: "fas fa-envelope"
@@ -28,17 +28,17 @@
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/imranhaqbi/'                  # Fill with your Linkedin homepage
 #
-#- type: stack-overflow
-#  icon: 'fab fa-stack-overflow'
-#  url:  'https://stackoverflow.com/users/22231370/pbi-datavizzle'                  # Fill with your stackoverflow homepage
+- type: stack-overflow
+  icon: 'fab fa-stack-overflow'
+  url:  'https://stackoverflow.com/users/22231370/pbi-datavizzle'                  # Fill with your stackoverflow homepage
 #
 - type: bluesky
   icon: 'fa-brands fa-bluesky'
   url: 'https://bsky.app/profile/pbiqueryous.bsky.social'                   # Fill with your Bluesky profile link
 #
-#- type: reddit
-#  icon: 'fa-brands fa-reddit'
-#  url: 'https://www.reddit.com/user/PBIQueryous/'                   # Fill with your Reddit profile link
+- type: reddit
+  icon: 'fa-brands fa-reddit'
+  url: 'https://www.reddit.com/user/PBIQueryous/'                   # Fill with your Reddit profile link
 #
 # - type: threads
 #   icon: 'fa-brands fa-threads'

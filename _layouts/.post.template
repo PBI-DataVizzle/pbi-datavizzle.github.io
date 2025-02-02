@@ -1,0 +1,18 @@
+---
+layout: post
+title: Template Title
+date: YYYY-MM-DD HH:MM
+category: [PowerBI, DataViz, Deneb, Vega-Lite]
+author: [A1, A2]
+tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthrough]
+summary: Template Summary
+description: Template Description🕊️🧙🏼‍♂️✨
+image: 
+    path: assets/headers/header_deneb_vegalite.png
+    width: 1200
+    height: 630
+    alt: Power BI and Deneb
+mermaid: true
+published: false
+hidden: true
+---

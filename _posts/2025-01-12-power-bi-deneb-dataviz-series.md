@@ -8,8 +8,8 @@ tags: [powerbi, dataviz, deneb, vega-lite]
 description: Welcome and... Hello, world 👋🏼
 image: 
     path: assets/headers/pbix_banner2.png
-    width: 1200
-    height: 630
+    width: 700
+    height: 400
     alt: Power BI and Deneb
 ---
 
