@@ -30,5 +30,5 @@ hidden: true
 
 # WATCH THIS SPACE
 
-###### My body is 90% coffee - the other 10% is classified 
+###### My body is 90% coffee ☕ - the other 10% is classified 😏 🤖
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle)  

@@ -17,6 +17,12 @@ published: true
 hidden: false
 ---
 
+> 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!
+{: .prompt-info }
+
+---
+
+
 ## Acknowledgements
 Before we begin, I’d like to tag and thank Deneb creator Daniel Marsh-Patrick — you can find comprehensive Deneb resources and examples at the offical website: deneb-viz.github.io. Daniel has inspired innumerable Power BI developers around the world, enabling us to go far beyond the boundaries of “traditional” Power BI report design. This article is a celebration of Daniel’s endeavours, for which I owe my sincere gratitude 🤓🙌
 
@@ -316,4 +322,9 @@ Finally, for that extra finesse 🪄, let’s add a splash of colour:
 This is the end of the article — but only the beginning of the series! 😋 Thank you for sticking with me and stay tuned for the next Deneb/Vega-Lite episode soon! 🧙‍♂️
 
 # PBIX
-🔗 [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
+[^fn-pbix]: 🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
+
+***
+
+###### My body is 90% coffee ☕ - the other 10% is classified 😏 🤖
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle)  
