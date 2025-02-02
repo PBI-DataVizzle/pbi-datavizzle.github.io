@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PBI DataVizzle - A Journey through PowerBI DataViz
-date: 2025-01-12 14:32
+date: 2025-01-11 14:32
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
 tags: [powerbi, dataviz, deneb, vega-lite]

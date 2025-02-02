@@ -9,8 +9,8 @@ summary: Walkthrough
 description: Marks are the core building blocks for chart development. In this article we will take a little dip into the different mark types available🕊️🧙🏼‍♂️✨
 image: 
     path: assets/headers/deneb-ep02.svg
-    width: 1200
-    height: 630
+    width: 700
+    height: 400
     alt: Power BI and Deneb
 ---
 > 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!

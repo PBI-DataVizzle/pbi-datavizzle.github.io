@@ -9,8 +9,8 @@ summary: Walkthrough
 description: Showcasing the art of the possible 🕊️🧙🏼‍♂️✨
 image: 
     path: assets/headers/deneb-ep10.svg
-    width: 1200
-    height: 630
+    width: 700
+    height: 400
     alt: Power BI and Deneb
 mermaid: true
 published: true
