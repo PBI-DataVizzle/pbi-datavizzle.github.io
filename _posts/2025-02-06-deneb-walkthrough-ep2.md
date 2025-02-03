@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Deneb & Vega-Lite | EP02 - Mark Types
-date: 2025-01-12 16:06
+title: [Deneb & Vega-Lite, EP02 - Mark Types]
+date: 2025-02-05 00:00
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
 tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthrough]
