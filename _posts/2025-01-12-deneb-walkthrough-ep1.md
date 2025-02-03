@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deneb & Vega-Lite | EP01 - Marks and Encoding
+title: PBI/D/VL | EP01 - Marks and Encoding
 date: 2025-01-12 15:51
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
