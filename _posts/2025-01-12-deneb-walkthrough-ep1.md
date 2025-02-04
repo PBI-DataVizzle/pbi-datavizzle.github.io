@@ -207,7 +207,7 @@ Looking better, but it’s not quite finished. Our x-axis is still undefined. Le
 
 ![](assets/img/deneb_walkthrough_images/1f_getting_started.webp "")
 {:.centered}  
-**
+
 {: style="color:gray; font-size: 80%; text-align: center;margin-left:auto; margin-right:auto"}
 
 <br>
@@ -216,7 +216,8 @@ Hmmn, this isn’t what we expected, is it? Vega-Lite just needs a little help u
 
 The `[AC]` measure is a quantitative value, i.e. we want to aggregate/summarise it. Let’s make a little addition to our code:
 
-#### 
+#### define data types
+
 ```jsonc
 
 {
@@ -282,9 +283,9 @@ Firstly, our bar chart is sorted alphabetically by default. We can change the so
 ```
 <br>
 
-![](assets/img/deneb_walkthrough_images/1h_getting_started.webp "a proper bar chart")
+![](assets/img/deneb_walkthrough_images/1h_getting_started.webp "sort axis")
 {:.centered}  
-*a proper bar chart*
+*sort axis*
 {: style="color:gray; font-size: 80%; text-align: center;margin-left:auto; margin-right:auto"}
 
 Finally, for that extra finesse 🪄, let’s add a splash of colour:
@@ -313,6 +314,7 @@ Finally, for that extra finesse 🪄, let’s add a splash of colour:
     }
   ]
 }
+
 ```
 
 <br>

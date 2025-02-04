@@ -8,7 +8,7 @@ tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthro
 summary: Walkthrough
 description: Marks are the core building blocks for chart development. In this article we will take a little dip into the different mark types available🕊️🧙🏼‍♂️✨
 image: 
-    path: assets/headers/deneb-ep02.svg
+    path: assets/headers/post-headers/ep2.png #"C:/pbi_repos/github_page/pbi_datavizzle_blog/pbi-datavizzle.github.io/assets/headers/post-headers/ep1.png"
     width: 700
     height: 400
     alt: Power BI and Deneb

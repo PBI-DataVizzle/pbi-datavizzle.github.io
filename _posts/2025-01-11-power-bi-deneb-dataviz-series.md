@@ -8,14 +8,14 @@ tags: [powerbi, dataviz, deneb, vega-lite]
 description: Welcome and... Hello, world 👋🏼
 image: 
     path: assets/headers/pbix_banner2.png
-    width: 700
-    height: 400
+    width: 1200
+    height: 630
     alt: Power BI and Deneb
 ---
 
 ## Welcome to my blog. I'm PBI DataVizzle, I will be blogging on DataViz and all types of PowerBI shizzle! 🧙🏼‍♂️📊🕊️
 
-![Banner](/assets/img/deneb_walkthrough_images/pbi-datavizzle-super-banner.png)
+![Banner](/assets/header/pbi_datavizzle_header.webp)
 {:style="text-align:center;"}
 ![Me](/assets/img/deneb_walkthrough_images/pbi-data-vizzle-main-character.png){:.centered}  
 *I'm PBI-DataVizzle, and I love all that DataViz and other PowerBI shizzle*
