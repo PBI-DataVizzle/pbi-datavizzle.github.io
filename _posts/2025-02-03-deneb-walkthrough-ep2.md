@@ -13,7 +13,7 @@ image:
     height: 400
     alt: Power BI and Deneb
 mermaid: true
-published: true
+published: false
 hidden: false
 
 ---
