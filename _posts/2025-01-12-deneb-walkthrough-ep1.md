@@ -8,7 +8,7 @@ tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthro
 summary: Walkthrough
 description: Let’s learn to run before we fly 🕊️ — a walk-through of the fundamental building blocks in Vega-Lite data viz development
 image: 
-    path: "/assets/img/deneb_walkthrough_images/header_ep1.png"
+    path: "assets/headers/post-headers/ep1.png"
     width: 700
     height: 400
     alt: Power BI and Deneb
