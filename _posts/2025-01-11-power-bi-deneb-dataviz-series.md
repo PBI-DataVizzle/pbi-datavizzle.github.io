@@ -15,7 +15,7 @@ image:
 
 ## Welcome to my blog. I'm PBI DataVizzle, I will be blogging on DataViz and all types of PowerBI shizzle! 🧙🏼‍♂️📊🕊️
 
-![Banner](/assets/header/pbi_datavizzle_header.webp)
+![Banner](/assets/img/deneb_walkthrough_images/pbi-datavizzle-super-banner.png)
 {:style="text-align:center;"}
 ![Me](/assets/img/deneb_walkthrough_images/pbi-data-vizzle-main-character.png){:.centered}  
 *I'm PBI-DataVizzle, and I love all that DataViz and other PowerBI shizzle*
