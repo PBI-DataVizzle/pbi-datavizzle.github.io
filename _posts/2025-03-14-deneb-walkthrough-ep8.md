@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deneb & Vega-Lite | EP08 - Number Formatting
+title: EP08 - Number Formatting
 date: 2025-01-12 18:25
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]

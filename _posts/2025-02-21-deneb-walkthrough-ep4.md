@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deneb & Vega-Lite | EP04 - Styling Mark Properties (pt2)
+title: EP04 - Styling Mark Properties (pt2)
 date: 2025-01-12 17:06
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]

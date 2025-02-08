@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deneb & Vega-Lite | EP05 - Layers
+title: EP05 - Layers
 date: 2025-01-12 17:15
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]

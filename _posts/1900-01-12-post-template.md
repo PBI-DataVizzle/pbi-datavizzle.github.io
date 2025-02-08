@@ -21,7 +21,21 @@ hidden: true
 {: .prompt-info }
 ---
 
-
+<html>
+  <head>
+    <title>Embedding Vega-Lite</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.9.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.1"></script>
+  </head>
+  <body>
+    <div id="vis"></div>
+    <script type="text/javascript">
+      var yourVlSpec = {}
+        vegaEmbed('#vis', yourVlSpec);
+    </script>
+  </body>
+</html>
 
 ---
 [^fn-pbix]: 🔗 Github Repo: [EP02 - Mark Types](https://github.com/PBIQueryous/Deneb/blob/main/Medium-VegaLite-Series/EP02_Deneb_VegaLite_Series%20-%20Marks%20Types.pbix)

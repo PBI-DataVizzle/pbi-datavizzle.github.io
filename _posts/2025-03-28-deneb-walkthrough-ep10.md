@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deneb & Vega-Lite | EP10 - The World in 2100
+title: EP10 - The World in 2100
 date: 2025-01-12 18:35
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]

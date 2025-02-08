@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deneb & Vega-Lite | EP06 - Expressions & Conditional Formatting (pt1)
+title: EP06 - Expressions & Conditional Formatting (pt1)
 date: 2025-01-12 18:15
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]

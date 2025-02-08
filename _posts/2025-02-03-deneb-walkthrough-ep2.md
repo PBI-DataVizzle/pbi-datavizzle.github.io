@@ -1,6 +1,6 @@
 ---
 layout: post
-title: S1E2 - Mark Types (PBI | D | VL)
+title: S1E2 - Mark Types
 date: 2025-02-03 00:00
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
