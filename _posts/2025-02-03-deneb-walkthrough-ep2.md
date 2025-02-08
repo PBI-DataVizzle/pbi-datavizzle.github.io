@@ -1,7 +1,7 @@
 ---
 layout: post
-title: PBI/D/VL | EP02 - Mark Types
-date: 2025-02-04 00:00
+title: S1E2 - Mark Types (PBI | D | VL)
+date: 2025-02-03 00:00
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
 tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthrough]
@@ -13,7 +13,7 @@ image:
     height: 400
     alt: Power BI and Deneb
 mermaid: true
-published: false
+published: true
 hidden: false
 
 ---
@@ -22,18 +22,24 @@ hidden: false
 {: .prompt-info }
 
 [//]: # Comment first footnoote, can be please anywhere and will display on footer
-[^fn-pbix]: PBIX: [Github Repo](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
+[^fn-pbix]: PBIX: [Github Repo](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series){: width="700" height="400" }
 
 ---
+
+[//]: # PLACE IMAGE HERE
+
+![column chart](assets/img/deneb_walkthrough_images/2a_marks.webp "column chart")
+
+<br> 
 
 # Mark Types
 
 ## Introduction
-There is a lot to learn in Vega-Lite, and it can be difficult to know where to start. In Episode 1 on my Vega-Lite series we looked at encoding a bar mark, but there many other mark types we can use to start creating some magic! 💫
+There is a lot to learn in Vega-Lite, and it can be difficult to know where to start. In [Episode 1](https://pbi-datavizzle.github.io/posts/deneb-walkthrough-ep1/) on my Vega-Lite series we looked at encoding a bar mark, but there many other mark types we can use to start creating some magic! 💫
 
 
 ## Mark Types
-There are two broad categories of marks, primitive marks and composite marks. Primitive marks represent the simplest forms of visual elements — i.e. the geometric shape. Composite marks are higher-level abstractions which incorporate multiple primitive marks. They are usually tailored for specific types of visualisation. For the most part, primitive marks will be more than enough for our needs.
+There are two broad categories of marks, primitive marks and composite marks. Primitive marks represent the simplest forms of visual elements — i.e. **the geometric shape**. Composite marks are higher-level abstractions which incorporate multiple primitive marks. They are usually tailored for specific types of visualisation. For the most part, primitive marks will be more than enough for our needs.
 
 Coding our marks is super easy — take a look at the general format below. You have two parts: the mark object, and the mark type attribute:
 
@@ -102,12 +108,13 @@ And for illustrative purposes, a more comprehensive list:
 <br>
 
 ## From Marks to Charts
-Now we know how to change marks shapes, we can go one step further by translating these shapes into charts — the form of data which can be visually analysed and understood. Let’s take a look at 5 such examples:
+Now we know how to change marks shapes, we can go one step further by translating these shapes into **charts** — the form of data which can be visually analysed and understood. Let’s take a look at 5 such examples:
 
 ### Column Chart
 [//]: # PLACE IMAGE HERE
 
-![images](assets/img/deneb_walkthrough_images/2a_marks.webp)
+![column chart](assets/img/deneb_walkthrough_images/2b_marks.webp "column chart")
+
 ```jsonc
 // note: the code is abbreviated and annotated for effect
 {
@@ -128,16 +135,116 @@ Now we know how to change marks shapes, we can go one step further by translatin
 
 ```
 
-## Subtitle2
-text
+### Bar Chart
+[//]: # PLACE IMAGE HERE
 
-It can at first be overwhelming, particularly when viewing the Vega-Lite examples gallery
+![bar chart](assets/img/deneb_walkthrough_images/2c_marks.webp "bar chart")
 
-![images](assets/img/deneb_walkthrough_images/1_getting_started.webp)
+```jsonc
 
+// note: the code is abbreviated and annotated for effect
+{
+  "data": {"name": "dataset"},
+  "encoding": {
+    "x": { "field": "AC" },          // now switched axis on the bottom
+    "y": { "field": "EndOfMonth" }   // and axis on the left
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "color": "#0000FF"
+      }
+    }
+  ]
+}
+
+```
 
 <br>
 
+### Line Chart
+[//]: # PLACE IMAGE HERE
+
+![bar chart](assets/img/deneb_walkthrough_images/2d_marks.webp "bar chart")
+
+```jsonc
+
+// note: the code is abbreviated and annotated for effect
+{
+  "data": {"name": "dataset"},
+  "encoding": {
+    "y": { "field": "AC" },          // now switched axis on the bottom
+    "x": { "field": "EndOfMonth" }   // and axis on the left
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "point": "true",
+        "color": "#0000FF"
+      }
+    }
+  ]
+}
+
+```
+
+<br>
+
+### Area Chart
+[//]: # PLACE IMAGE HERE
+
+![bar chart](assets/img/deneb_walkthrough_images/2e_marks.webp "bar chart")
+
+```jsonc
+
+// note: the code is abbreviated and annotated for effect
+{
+  "data": {"name": "dataset"},
+  "encoding": {
+    "y": { "field": "AC" },          // axis on the left
+    "x": { "field": "EndOfMonth" }   // axis on the bottom
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "area",
+        "color": "#0000FF"
+      }
+    }
+  ]
+}
+
+```
+
+<br>
+
+### Scatter Plot
+[//]: # PLACE IMAGE HERE
+
+![bar chart](assets/img/deneb_walkthrough_images/2f_marks.webp "bar chart")
+
+```jsonc
+
+// note: the code is abbreviated and annotated for effect
+{
+  "data": {"name": "dataset"},
+  "encoding": {
+    "x": { "field": "AC" },   // axis on the bottom
+    "y": { "field": "QTY" }   // axis on the left
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "color": "#0000FF"
+      }
+    }
+  ]
+}
+
+```
 <br>
 
 <p style="text-align: center;">. . .</p>
@@ -145,7 +252,7 @@ It can at first be overwhelming, particularly when viewing the Vega-Lite example
 <br>
 
 ## En Fin, Serafin
-This is the end of the article — but only the beginning of the series! 😋 Thank you for sticking with me and stay tuned for the next Deneb/Vega-Lite episode soon! 🧙‍♂️
+Thank you for staying to the end of the article… I hope you find it useful 😊. Join me on the next episode where things are going to get a lot more technical! 😏🧙‍♂️🪄
 
 <br>
 
@@ -162,13 +269,14 @@ This is the end of the article — but only the beginning of the series! 😋 Th
 <h6 style="text-align: center;"> ☕ un cafelito porfa ☕ </h6>
 <h6 style="text-align: center;"> Oh, I almost affogato tell you 😏 My body is 90% coffee ☕ <br> the rest is classified 🤓 🤖 </h6>
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle)  
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle){: w="1200" h="630" }  
 
-[//]: # <div style="text-align: center;"> <a href="https://buymeacoffee.com/pbidatavizzle"> <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee"> </a></div>
+
 
 <p style="text-align: center;">. . .</p>
 
 ***
+
 
 ---
 ## Footnotes

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PBI/D/VL | EP01 - Marks and Encoding
+title: S1E21 - Marks and Encoding (PBI | D | VL)
 date: 2025-01-12 15:51
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
@@ -74,7 +74,7 @@ You will be presented with an empty template which will contain the following sp
 
 ```
 
-> `info` - From Deneb version ~> 1.7.0 onwards, comments can be written in the JSON spec.
+> **`info`** From Deneb version ~> 1.7.0 onwards, comments can be written in the JSON spec.
 {: .prompt-info }
 
 <br>
@@ -204,10 +204,9 @@ Looking better, but it’s not quite finished. Our x-axis is still undefined. Le
 
 ```
 
-
-![](assets/img/deneb_walkthrough_images/1f_getting_started.webp "")
-{:.centered}  
-
+![chart-image](assets/img/deneb_walkthrough_images/1f_getting_started.webp "bindin tothe x-axis")
+{:.centered}
+*bar mark bound to the y-axis*  
 {: style="color:gray; font-size: 80%; text-align: center;margin-left:auto; margin-right:auto"}
 
 <br>
