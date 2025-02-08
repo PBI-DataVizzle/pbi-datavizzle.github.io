@@ -11,6 +11,10 @@
   icon: "fa-brands fa-medium"
   url:  'https://medium.com/@pbi-datavizzle'
 
+- type: hashtag
+  icon: "fa-solid fa-hashtag"
+  url:  'https://medium.com/@pbi-datavizzle'
+
 #- type: email
 #  icon: "fas fa-envelope"
 #  noblank: true # open link in current tab

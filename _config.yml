@@ -17,7 +17,7 @@ timezone:
 
 title: PBI DataVizzle # the main title
 
-tagline: 📊 DataViz & PowerBI Shizzle 🧙🏼‍♂️ # it will display as the subtitle
+tagline: 📊 DataViz & PBI Shizzle 🧙🏼‍♂️ # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A mind dump of Power BI DataViz techniques, with a special interest in Deneb and Vega-Lite.

@@ -1,32 +1,105 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+icon: fa solid fa-poo
+order: 5
 ---
 
 # chart blocks
+
 <html>
-<head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-  <!-- Import vega-embed -->
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-</head>
+  <head>
+    <title>Embedding Vega-Lite</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+  </head>
 <body>
 
 <div id="vis"></div>
 
 <script type="text/javascript">
-  var spec = "https://raw.githubusercontent.com/vega/vega/master/docs/examples/bar-chart.vg.json";
+  var spec = "https://gist.githubusercontent.com/PBI-DataVizzle/6edc92e911fe8c455bb306a1fba6d5a4/raw/e336062e52712a6f83c1c2acd0f9a7d666f87fae/vega_lite_dot_nov24_spec.json";
   vegaEmbed('#vis', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
 </body>
 </html>
+  
+<br>
+<br>
+
+<html>
+
+  <body>
+    <div id="vis3"></div>
+
+    <script type="text/javascript">
+      var yourVlSpec = {
+        $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+        description: 'A simple bar chart with embedded data.',
+        data: {
+          values: [
+            {a: 'A', b: 28},
+            {a: 'B', b: 55},
+            {a: 'C', b: 43},
+            {a: 'D', b: 91},
+            {a: 'E', b: 81},
+            {a: 'F', b: 53},
+            {a: 'G', b: 19},
+            {a: 'H', b: 87},
+            {a: 'I', b: 52}
+          ]
+        },
+        mark: 'bar',
+        encoding: {
+          x: {field: 'a', type: 'ordinal'},
+          y: {field: 'b', type: 'quantitative'}
+        }
+      };
+      vegaEmbed('#vis3', yourVlSpec);
+    </script>
+  </body>
+</html>
+
 
 <br>
+
+<html>
+
+  <body>
+    <div id="vis2"></div>
+
+    <script type="text/javascript">
+      var yourVlSpec = {
+        $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+        description: 'A simple bar chart with embedded data.',
+        data: {
+          values: [
+            {a: 'A', b: 15},
+            {a: 'B', b: 12},
+            {a: 'C', b: 10},
+            {a: 'D', b: 10},
+            {a: 'E', b: 6},
+            {a: 'F', b: 13},
+            {a: 'G', b: 19},
+            {a: 'H', b: 21},
+            {a: 'I', b: 10}
+          ]
+        },
+        width: 350,
+        height: 200,
+        mark: 'bar',
+        encoding: {
+          x: {field: 'a', type: 'ordinal'},
+          y: {field: 'b', type: 'quantitative'}
+        }
+      };
+      vegaEmbed('#vis2', yourVlSpec);
+    </script>
+  </body>
+</html>
+
 
 # Prompt Blocks
 text new text here
@@ -50,6 +123,7 @@ t.column1
 , t.column3
 FROM table1 as t
 ```
+
 
 ```jsonc
 {
