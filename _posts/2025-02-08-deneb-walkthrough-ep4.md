@@ -1,7 +1,7 @@
 ---
 layout: post
 title: S1E4 - Styling Mark Properties (pt2)
-date: 2025-01-12 17:06
+date: 2025-02-09 00:01
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
 tags: [walkthrough]
@@ -28,7 +28,37 @@ hidden: false
 
 ---
 
----
+## <i class="fa-solid fa-hat-wizard"></i>&ensp; Recap
+In the previous episode, we looked at formatting the mark properties of our column chart. In this episode, we will reuse that column chart and modify it slightly to create an area chart with custom styling.
+
+
+## Not Lazy, Just Efficient
+We could start from scratch, but that’s unnecessary when we can make the most of the code we’ve already built.
+
+> **The greatest invention of all time is copy and paste** — Alberto Ferrari (SQLBI)
+
+There’s no shame in copy and paste, we are busy people and we are in a hurry to showcase our talents, remember…
+
+> **I’m not lazy, just efficient** — Patrick LeBlank (Guys In A Cube)
+
+
+## <i class="fa-solid fa-people-pulling"></i>&nbsp; Walkthrough: Customised Area Chart
+### Step 1: Prepare the Area Chart
+In the PBIX solution file, we can first copy and paste or duplicate the column chart viz. Then return to the Editor:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ___
 
