@@ -14,9 +14,7 @@ order: 5
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
   </head>
 <body>
-
 <div id="vis"></div>
-
 <script type="text/javascript">
   var spec = "https://gist.githubusercontent.com/PBI-DataVizzle/6edc92e911fe8c455bb306a1fba6d5a4/raw/e336062e52712a6f83c1c2acd0f9a7d666f87fae/vega_lite_dot_nov24_spec.json";
   vegaEmbed('#vis', spec).then(function(result) {
