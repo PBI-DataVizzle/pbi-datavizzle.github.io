@@ -6,23 +6,34 @@ order: 5
 
 # chart blocks
 
-<html>
-  <head>
-    <title>Embedding Vega-Lite</title>
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
-  </head>
-<body>
 <div id="vis"></div>
-<script type="text/javascript">
-  var spec = "https://gist.githubusercontent.com/PBI-DataVizzle/6edc92e911fe8c455bb306a1fba6d5a4/raw/e336062e52712a6f83c1c2acd0f9a7d666f87fae/vega_lite_dot_nov24_spec.json";
-  vegaEmbed('#vis', spec).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-</script>
-</body>
-</html>
+  <script type="text/javascript">
+    var spec = {
+      $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+      description: 'A simple bar chart with embedded data.',
+      width: 400,
+      height: 200,
+      data: {
+        values: [
+          {a: 'A', b: 28},
+          {a: 'B', b: 55},
+          {a: 'C', b: 43},
+          {a: 'D', b: 91},
+          {a: 'E', b: 81},
+          {a: 'F', b: 53},
+          {a: 'G', b: 19},
+          {a: 'H', b: 87},
+          {a: 'I', b: 52}
+        ]
+      },
+      mark: 'bar',
+      encoding: {
+        x: {field: 'a', type: 'ordinal'},
+        y: {field: 'b', type: 'quantitative'}
+      }
+    };
+    vegaEmbed('#vis', spec);
+  </script>
   
 <br>
 <br>

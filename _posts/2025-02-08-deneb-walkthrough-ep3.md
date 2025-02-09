@@ -511,15 +511,9 @@ Thank you for staying to the end of the article… I hope you find it useful �
 ## ⏬ PBIX  ⏏️
 🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle){: w="1200" h="630" }  
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle){: w="700" h="400" }  
 
-***
-<p style="text-align: center;">. . .</p>
-<h6 style="text-align: center;"> ☕ un cafelito porfa ☕ </h6>
-<h6 style="text-align: center;"> Oh, I almost affogato tell you 😏 <br> My body is 90% coffee ☕ <br> the rest is classified 🤓 🤖 </h6>
 
-<p style="text-align: center;">. . .</p>
-***
 
 ---
 ## Footnotes
