@@ -27,8 +27,7 @@ hidden: false
 [^fn-pbix]: PBIX: [Github Repo](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series){: width="700" height="400" }
 
 ---
-
-## Recap
+<h2><i class="fa-solid fa-hat-wizard"></i>&ensp;Recap</h2>
 So far in Episodes [1](https://pbi-datavizzle.github.io/posts/deneb-walkthrough-ep1/) and [2](https://pbi-datavizzle.github.io/posts/deneb-walkthrough-ep2/), we have looked at the fundamentals of Deneb / Vega-Lite visualisation: how to create a chart using a variety marks, and how to bind our data fields to the a chart’s encoding channel. In this episode, we are going to get jazzy 🎸… I hope you like curly brackets {} 😋
 
 <p style="text-align: center;">. . .</p>
@@ -503,17 +502,17 @@ BEHOLD! Your Deneb / Vega-Lite column chart that is just as good if not BETTER t
 
 <p style="text-align: center;">. . .</p>
 
-## En Fin, Serafin
-Thank you for staying to the end of the article… I hope you find it useful 😊. Join me on the next episode where things are going to get a lot more technical! 😏🧙‍♂️🪄
+<h2><i class="fa-solid fa-heart-circle-check"></i>&ensp;En Fin, Serafin</h2>
+Thank you for staying to the end of the article… I hope you find it useful 😊. See you soon... and #StayQueryous #ShizzleMyVizzle! 😏🧙‍♂️🪄
 
+ <h2><i class="fa-solid fa-download" aria-hidden="true"></i>&ensp;💾 PBIX &ensp;<i class="fa-solid fa-square-poll-vertical" aria-hidden="true"></i></h2> 
+
+🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)  
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle) 
+
+<p style="text-align: center;">. . .</p> 
 <br>
-
-## ⏬ PBIX  ⏏️
-🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle){: w="700" h="400" }  
-
-
 
 ---
 ## Footnotes

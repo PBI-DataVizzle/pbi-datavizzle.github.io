@@ -1,10 +1,172 @@
 ---
 # the default layout is 'page'
-icon: fa solid fa-poo
+layout: post
+icon: fa-solid fa-toilet-paper
 order: 5
+toc: true
 ---
 
-# chart blocks
+## icons
+<h2><i class="fa-solid fa-chart-line" aria-hidden="true"></i>&ensp;Level2</h2>
+
+<h3><i class="fa-solid fa-square-poll-vertical" aria-hidden="true"></i>&ensp;Level3</h3>
+
+<h4><i class="fa-solid fa-code" aria-hidden="true"></i>&ensp;Level4</h4>
+
+<h4><i class="fa-solid fa-brain" aria-hidden="true"></i>&ensp;Brain</h4>
+
+<h4><i class="fa-solid fa-skull-crossbones" aria-hidden="true"></i>&ensp;SkullCrossbones</h4>
+
+<h4><i class="fa-solid fa-person-digging" aria-hidden="true"></i>&ensp;digging</h4>
+
+<h4><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i>&ensp;chart-look</h4>
+
+<h4><i class="fa-solid fa-hands-clapping" aria-hidden="true"></i>&ensp;hands</h4>
+
+<h4><i class="fa-solid fa-toilet-paper" aria-hidden="true"></i>&ensp;bog-roll</h4>
+
+<h4><i class="fa-solid fa-file-code" aria-hidden="true"></i>&ensp;chart-look</h4>
+
+<i class="fa-solid fa-file-code"></i>
+
+<h4><i class="fa-solid fa-pepper-hot" aria-hidden="true"></i>&ensp;Pepper</h4>
+<h4><i class="fa-solid fa-smoking" aria-hidden="true"></i>&ensp;Smoking</h4>
+
+<h5><i class="fa-solid fa-laptop-code" aria-hidden="true"></i>&ensp;Level5</h5>
+
+<h6><i class="fa-solid fa-face-laugh-wink" aria-hidden="true"></i>&ensp;Level6</h6>
+
+
+<div class="thi-columns" markdown="1">
+## lists
+### bullets
+- item 1
+- item 2
+- item 3
+- item 4
+- item 5
+- item 6
+</div>
+
+___
+
+
+> **ℹ️ Note**: Here's a small note for reference.
+{: .prompt-note }
+
+> **💀 Note**: Here's a small note for reference.
+{: .prompt-note }
+
+> **⚠️ Note**: Here's a small note for reference.
+{: .prompt-note }
+
+> **⛔ Note**: Here's a small note for reference.
+{: .prompt-note }
+
+> This is an example of a Tip.
+{: .prompt-tip }
+
+> This is an example of an Info block.
+{: .prompt-info }
+
+> This is an example of a Warning block.
+{: .prompt-warning }
+
+> This is an example of a Danger block.
+{: .prompt-danger }
+
+[//]: # Collapsable Section
+
+
+### dax highlighter 
+```js
+# Distinct Vertices Label Prop = 
+CALCULATE( 
+  COUNTROWS( DISTINCT( 'Vertices Label Prop'[id] ) )
+  , 'Vertices Label Prop'[Type] in {"User", "Group"} 
+)
+```
+
+{% highlight JS linenos %}
+# Distinct Vertices Label Prop = 
+CALCULATE( 
+  COUNTROWS( DISTINCT( 'Vertices Label Prop'[id] ) )
+  , 'Vertices Label Prop'[Type] in {"User", "Group"} 
+)
+{% endhighlight %}
+
+
+
+### check boxes
+- [ ] check1
+- [x] check2
+
+### terms
+Define a Term
+: definition
+
+```jsonc
+{
+    $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+    description: "A simple bar chart with embedded data.",
+    data: {
+      values: [
+        {a: "A", b: 28}, /* comments */
+        {a: "B", b: 55}, // comments2
+        {a: "C", b: 43},
+        {a: "D", b: 91},
+        {a: "E2", b: 81},
+        {a: "F", b: 53},
+        {a: "G", b: 19},
+        {a: "H", b: 87},
+        {a: "I", b: 52}
+      ]
+    },
+    mark: "bar",
+    encoding: {
+      x: {field: "a", type: "ordinal"},
+      y: {field: "b", type: "quantitative"}
+    }
+  }
+
+````
+
+
+<details>
+<summary>Preview</summary>
+
+{% highlight JSONC linenos mark_lines="1 2" %}
+{
+    $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+    description: "A simple bar chart with embedded data.",
+    data: {
+      values: [
+        {a: "A", b: 28}, /* comments */
+        {a: "B", b: 55}, // comments2
+        {a: "C", b: 43},
+        {a: "D", b: 91},
+        {a: "E2", b: 81},
+        {a: "F", b: 53},
+        {a: "G", b: 19},
+        {a: "H", b: 87},
+        {a: "I", b: 52}
+      ]
+    },
+    mark: "bar",
+    encoding: {
+      x: {field: "a", type: "ordinal"},
+      y: {field: "b", type: "quantitative"}
+    }
+  }
+{% endhighlight %}
+
+</details>
+
+
+
+
+
+
 
 <div id="vis"></div>
   <script type="text/javascript">
@@ -118,6 +280,8 @@ text2
 
 ### subsection3
 text3
+
+<h2><i class="fa-solid fa-table" aria-hidden="true"></i>&ensp;Dataset</h2>
 
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
@@ -377,7 +541,9 @@ It's a dirty mess!
 <br>
 
 <details>
+
   <summary>Click to expand</summary>
+
   **This text is bold!**
 
   You can use other Markdown features here too, like:
@@ -391,40 +557,8 @@ It's a dirty mess!
 <br>
 
 
-> This is a helpful tip!
-{: .prompt-tip }
 
-<br>
 
-> **Tip**: This is a helpful tip!
-{: .prompt-tip }
-
-<br>
-
-> **Warning**: Be careful with this!
-{: .prompt-warning }
-
-<br>
-
-> **Important**: This is critical information.
-{: .prompt-important }
-
-<br>
-
-> **Danger**: This might break your code!
-{: .prompt-danger }
-
-<br>
-
-> **Note**: Here's a small note for reference.
-{: .prompt-note }
-
-<br>
-
-> **Custom Block**: You can style this however you like.
-{: .prompt-custom }
-
-*(You will need to define the `.prompt-custom` class in your CSS for this to work.)*
 
 
 > [!NOTE]  
@@ -486,14 +620,4 @@ Highlights information that users should take into account, even when skimming.
 > .. simply use an empty `>` line
 
 ---
-> This is an example of a Tip.
-{: .prompt-tip }
 
-> This is an example of an Info block.
-{: .prompt-info }
-
-> This is an example of a Warning block.
-{: .prompt-warning }
-
-> This is an example of a Danger block.
-{: .prompt-danger }

@@ -336,12 +336,8 @@ This is the end of the article — but only the beginning of the series! 😋 Th
 <br>
 
 <p style="text-align: center;">. . .</p>
-<h6 style="text-align: center;"> ☕ un cafelito porfa ☕ </h6>
-<h6 style="text-align: center;"> Oh, I almost affogato tell you 😏 My body is 90% coffee ☕ <br> the rest is classified 🤓 🤖 </h6>
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle)  
-
-[//]: # <div style="text-align: center;"> <a href="https://buymeacoffee.com/pbidatavizzle"> <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee"> </a></div>
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle)
 
 <p style="text-align: center;">. . .</p>
 

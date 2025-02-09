@@ -261,19 +261,13 @@ Thank you for staying to the end of the article… I hope you find it useful �
 
 ***
 
-<br>
 
 
+<br><p style="text-align: center;">. . .</p>
 
-<p style="text-align: center;">. . .</p>
-<h6 style="text-align: center;"> ☕ un cafelito porfa ☕ </h6>
-<h6 style="text-align: center;"> Oh, I almost affogato tell you 😏 My body is 90% coffee ☕ <br> the rest is classified 🤓 🤖 </h6>
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle)
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle){: w="1200" h="630" }  
-
-
-
-<p style="text-align: center;">. . .</p>
+<p style="text-align: center;">. . .</p><br>
 
 ***
 
