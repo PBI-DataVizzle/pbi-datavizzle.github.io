@@ -316,19 +316,20 @@ Finally, for that extra finesse 🪄, let’s add a splash of colour:
 
 ```
 
+___
+
 <p style="text-align: center;">. . .</p>
 
-<h2><i class="fa-solid fa-heart-circle-check"></i>&ensp;En Fin, Serafin</h2>
-Thank you for staying to the end of the article… I hope you find it useful 😊. See you soon... and #StayQueryous #ShizzleMyVizzle! 😏🧙‍♂️🪄
+##### <center> <i class="fa-solid fa-heart-circle-check fa-2x"></i>&nbsp; En Fin, Serafin </center>
+Thank you for staying to the end of the article… I hope you find it useful 😊. See you soon, and remember... #StayQueryous!🧙‍♂️🪄  
 
- <h2><i class="fa-solid fa-download" aria-hidden="true"></i>&ensp;💾 PBIX &ensp;<i class="fa-solid fa-square-poll-vertical" aria-hidden="true"></i></h2> 
-
+## <center><i class="fa-solid fa-download" aria-hidden="true"></i>&nbsp;  PBIX 💾 </center>
 🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)  
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle) 
 
 <p style="text-align: center;">. . .</p> 
-<br>
+<!-- <br> -->
 
 ---
 ## Footnotes

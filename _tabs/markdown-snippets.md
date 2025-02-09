@@ -6,36 +6,52 @@ order: 5
 toc: true
 ---
 
+### Step <i class="fa-solid fa-1"></i>&ensp;
+
+#### Step <i class="fa-solid fa-1"></i>&ensp;
+
 ## icons
-<h2><i class="fa-solid fa-chart-line" aria-hidden="true"></i>&ensp;Level2</h2>
+## <i class="fa-solid fa-chart-line" aria-hidden="true"></i>&ensp; Level2
 
-<h3><i class="fa-solid fa-square-poll-vertical" aria-hidden="true"></i>&ensp;Level3</h3>
+## <i class="fa-solid fa-square-poll-vertical" aria-hidden="true"></i>&ensp;Level3
 
-<h4><i class="fa-solid fa-code" aria-hidden="true"></i>&ensp;Level4</h4>
+## <i class="fa-solid fa-code" aria-hidden="true"></i>&ensp;Level4
 
-<h4><i class="fa-solid fa-brain" aria-hidden="true"></i>&ensp;Brain</h4>
+## <i class="fa-solid fa-brain" aria-hidden="true"></i>&ensp;Brain
 
-<h4><i class="fa-solid fa-skull-crossbones" aria-hidden="true"></i>&ensp;SkullCrossbones</h4>
+## <i class="fa-solid fa-skull-crossbones" aria-hidden="true"></i>&ensp;SkullCrossbones
 
-<h4><i class="fa-solid fa-person-digging" aria-hidden="true"></i>&ensp;digging</h4>
+## <i class="fa-solid fa-person-digging" aria-hidden="true"></i>&ensp;digging
 
-<h4><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i>&ensp;chart-look</h4>
+## <i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i>&ensp;chart-look
 
-<h4><i class="fa-solid fa-hands-clapping" aria-hidden="true"></i>&ensp;hands</h4>
+## <i class="fa-solid fa-hands-clapping" aria-hidden="true"></i>&ensp;hands
 
-<h4><i class="fa-solid fa-toilet-paper" aria-hidden="true"></i>&ensp;bog-roll</h4>
+## <i class="fa-solid fa-toilet-paper" aria-hidden="true"></i>&ensp;bog-roll
 
-<h4><i class="fa-solid fa-file-code" aria-hidden="true"></i>&ensp;chart-look</h4>
+## <i class="fa-solid fa-file-code" aria-hidden="true"></i>&ensp;chart-look
 
-<i class="fa-solid fa-file-code"></i>
+## <i class="fa-solid fa-file-code"></i>
 
-<h4><i class="fa-solid fa-pepper-hot" aria-hidden="true"></i>&ensp;Pepper</h4>
-<h4><i class="fa-solid fa-smoking" aria-hidden="true"></i>&ensp;Smoking</h4>
+## <i class="fa-solid fa-pepper-hot" aria-hidden="true"></i>&ensp;Pepper
+## <i class="fa-solid fa-smoking" aria-hidden="true"></i>&ensp;Smoking
 
-<h5><i class="fa-solid fa-laptop-code" aria-hidden="true"></i>&ensp;Level5</h5>
+## <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>&ensp;Level5
 
-<h6><i class="fa-solid fa-face-laugh-wink" aria-hidden="true"></i>&ensp;Level6</h6>
+## <i class="fa-solid fa-face-laugh-wink" aria-hidden="true"></i>&ensp;Level6
 
+
+```diff
+SELECT 
+t.column1
+-, t.column2
+, t.column3
+FROM table1 as t
+no removal
++ newline
+- removed line
+```
+{: .nolineno }
 
 <div class="thi-columns" markdown="1">
 ## lists
@@ -49,6 +65,19 @@ toc: true
 </div>
 
 ___
+
+Click on the @icn-camera icon to take a screen shot.
+
+Click on the @icon-camera icon to take a screen shot.
+
+[Visit Blog ## <i class="fas fa-external-link-alt"></i>](https://blog.markdowntools.com/)
+
+> ## <i class="fa-solid fa-person-digging fa-2x" style="color: orange"></i> Configuration
+> Configuration can be launched from the **Tools -> Settings** menu option.
+
+<p>Used on a button:</p>
+<button style="font-size:24px">Button <i class="fa fa-spinner"></i></button>
+
 
 ```sql
 SELECT 
@@ -98,7 +127,7 @@ FROM table1 as t
 
 ### dax highlighter 
 ```js
-# Distinct Vertices Label Prop = 
+Distinct Vertices Label Prop = 
 CALCULATE( 
   COUNTROWS( DISTINCT( 'Vertices Label Prop'[id] ) )
   , 'Vertices Label Prop'[Type] in {"User", "Group"} 
@@ -106,7 +135,7 @@ CALCULATE(
 ```
 
 {% highlight JS linenos %}
-# Distinct Vertices Label Prop = 
+Distinct Vertices Label Prop = 
 CALCULATE( 
   COUNTROWS( DISTINCT( 'Vertices Label Prop'[id] ) )
   , 'Vertices Label Prop'[Type] in {"User", "Group"} 
@@ -147,13 +176,16 @@ Define a Term
     }
   }
 
-````
+```
 
+<button style="font-size:24px">Button <i class="fa fa-spinner"></i></button>
 
 <details>
-<summary>Preview</summary>
+<summary>&ensp;Click here to reveal code&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
 
-{% highlight JSONC linenos mark_lines="1 2" %}
+
+
+{% highlight JSONC linenos %}
 {
     $schema: "https://vega.github.io/schema/vega-lite/v5.json",
     description: "A simple bar chart with embedded data.",
@@ -178,15 +210,8 @@ Define a Term
   }
 {% endhighlight %}
 
-</details>
 
-
-
-
-
-
-
-<div id="vis"></div>
+<div id="vis0"></div>
   <script type="text/javascript">
     var spec = {
       $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
@@ -212,19 +237,49 @@ Define a Term
         y: {field: 'b', type: 'quantitative'}
       }
     };
-    vegaEmbed('#vis', spec);
+    vegaEmbed('#vis0', spec);
   </script>
-  
-<br>
+</details>
+
+-- 
+
+<div id="vis1"></div>
+  <script type="text/javascript">
+    var spec = {
+      $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+      description: 'A simple bar chart with embedded data.',
+      width: 400,
+      height: 200,
+      data: {
+        values: [
+          {a: 'A', b: 28},
+          {a: 'B', b: 55},
+          {a: 'C', b: 43},
+          {a: 'D', b: 91},
+          {a: 'E', b: 81},
+          {a: 'F', b: 53},
+          {a: 'G', b: 19},
+          {a: 'H', b: 87},
+          {a: 'I', b: 52}
+        ]
+      },
+      mark: 'bar',
+      encoding: {
+        x: {field: 'a', type: 'ordinal'},
+        y: {field: 'b', type: 'quantitative'}
+      }
+    };
+    vegaEmbed('#vis1', spec);
+  </script>
+
 <br>
 
 <html>
-
   <body>
-    <div id="vis3"></div>
+    <div id="vis2"></div>
 
     <script type="text/javascript">
-      var yourVlSpec = {
+      var spec = {
         $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
         description: 'A simple bar chart with embedded data.',
         data: {
@@ -246,7 +301,7 @@ Define a Term
           y: {field: 'b', type: 'quantitative'}
         }
       };
-      vegaEmbed('#vis3', yourVlSpec);
+      vegaEmbed('#vis2', spec);
     </script>
   </body>
 </html>
@@ -255,12 +310,11 @@ Define a Term
 <br>
 
 <html>
-
   <body>
-    <div id="vis2"></div>
+    <div id="vis3"></div>
 
     <script type="text/javascript">
-      var yourVlSpec = {
+      var inline_spec = {
         $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
         description: 'A simple bar chart with embedded data.',
         data: {
@@ -284,11 +338,12 @@ Define a Term
           y: {field: 'b', type: 'quantitative'}
         }
       };
-      vegaEmbed('#vis2', yourVlSpec);
+      vegaEmbed('#vis3', inline_spec);
     </script>
   </body>
 </html>
 
+<br>
 
 # Prompt Blocks
 text new text here
@@ -299,7 +354,7 @@ text2
 ### subsection3
 text3
 
-<h2><i class="fa-solid fa-table" aria-hidden="true"></i>&ensp;Dataset</h2>
+## <i class="fa-solid fa-table" aria-hidden="true"></i>&ensp; Dataset
 
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
@@ -573,11 +628,6 @@ It's a dirty mess!
 </details>
 
 <br>
-
-
-
-
-
 
 > [!NOTE]  
 Highlights information that users should take into account, even when skimming.

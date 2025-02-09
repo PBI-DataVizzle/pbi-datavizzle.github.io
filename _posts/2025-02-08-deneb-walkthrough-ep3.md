@@ -27,7 +27,7 @@ hidden: false
 [^fn-pbix]: PBIX: [Github Repo](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series){: width="700" height="400" }
 
 ---
-<h2><i class="fa-solid fa-hat-wizard"></i>&ensp;Recap</h2>
+## <i class="fa-solid fa-hat-wizard"></i>&ensp;Recap
 So far in Episodes [1](https://pbi-datavizzle.github.io/posts/deneb-walkthrough-ep1/) and [2](https://pbi-datavizzle.github.io/posts/deneb-walkthrough-ep2/), we have looked at the fundamentals of Deneb / Vega-Lite visualisation: how to create a chart using a variety marks, and how to bind our data fields to the a chart’s encoding channel. In this episode, we are going to get jazzy 🎸… I hope you like curly brackets {} 😋
 
 <p style="text-align: center;">. . .</p>
@@ -36,7 +36,7 @@ So far in Episodes [1](https://pbi-datavizzle.github.io/posts/deneb-walkthrough-
 ## Understanding Mark Properties
 Mark properties are essential for defining how your data viz will appear on your report canvas. As we have demonstrated in earlier episodes, Vega-Lite charts are a combination of one or more marks. This is already an extremely powerful tool in story-telling. The choice of mark type and its properties can be utilised to directly influence the readability, accessability, dynamics and aesthetics of your visualisation.
 
-The joy of Power BI is that we can see what stylistic options are available in the **formatting pane**, and it is effortless (*cough*🤫) to find and adjust these options to the desired effect.
+The <mark><b>joy of Power BI</b></mark> is that we can see what stylistic options are available in the **formatting pane**, and it is effortless (*cough*🤫) to find and adjust these options to the desired effect.
 
 
 [//]: # PLACE IMAGE HERE
@@ -420,7 +420,7 @@ Difficulty level have just increased ↗ and so has the recompense and reward. A
 ```
 
 
-## Step 7 (final): Format Axis Lables
+### Step 7 (final): Format Axis Lables
 Last but not least, for the ultimate perfection, let’s tidy up and [format the axes labels](https://deneb-viz.github.io/docs/formatting). This is extra work, but as I’ve said before, the reward is worth it.
 
 > Muster the Rohirrim! 🦄
@@ -499,20 +499,21 @@ BEHOLD! Your Deneb / Vega-Lite column chart that is just as good if not BETTER t
 
 ![img](assets/img/deneb_walkthrough_images/3ae_styles.webp)
 
+___
 
 <p style="text-align: center;">. . .</p>
 
-<h2><i class="fa-solid fa-heart-circle-check"></i>&ensp;En Fin, Serafin</h2>
-Thank you for staying to the end of the article… I hope you find it useful 😊. See you soon... and #StayQueryous #ShizzleMyVizzle! 😏🧙‍♂️🪄
+##### <center> <i class="fa-solid fa-heart-circle-check fa-2x"></i>&nbsp; En Fin, Serafin </center>
+Thank you for staying to the end of the article… I hope you find it useful 😊. See you soon, and remember... #StayQueryous!🧙‍♂️🪄  
 
- <h2><i class="fa-solid fa-download" aria-hidden="true"></i>&ensp;💾 PBIX &ensp;<i class="fa-solid fa-square-poll-vertical" aria-hidden="true"></i></h2> 
-
+## <center><i class="fa-solid fa-download"></i>&nbsp;  PBIX 💾 </center>
 🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)  
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle) 
 
 <p style="text-align: center;">. . .</p> 
-<br>
+<!-- <br> -->
 
 ---
 ## Footnotes
+_
