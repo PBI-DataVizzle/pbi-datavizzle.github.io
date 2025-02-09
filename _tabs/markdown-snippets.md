@@ -50,6 +50,24 @@ toc: true
 
 ___
 
+```sql
+SELECT 
+t.column1
+, t.column2
+, t.column3
+FROM table1 as t
+```
+{: .nolineno }
+
+```sql
+SELECT 
+t.column1
+, t.column2
+, t.column3
+FROM table1 as t
+```
+
+
 
 > **ℹ️ Note**: Here's a small note for reference.
 {: .prompt-note }

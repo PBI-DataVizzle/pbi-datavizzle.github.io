@@ -4,7 +4,7 @@ title: S1E1 - Marks and Encoding
 date: 2025-01-12 15:51
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
-tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthrough]
+tags: [StayQueryous, ShizzleMyVizzle]
 summary: Walkthrough
 description: Let’s learn to run before we fly 🕊️ — a walk-through of the fundamental building blocks in Vega-Lite data viz development
 image: 
@@ -20,8 +20,8 @@ hidden: false
 > 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!
 {: .prompt-info }
 
-
-[^fn-pbix]: PBIX: [Github Repo](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
+[//]: # Comment first footnoote, can be please anywhere and will display on footer
+[^fn-pbix]: PBIX: [Github Repo](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series){: width="700" height="400" }
 
 ---
 
@@ -316,32 +316,19 @@ Finally, for that extra finesse 🪄, let’s add a splash of colour:
 
 ```
 
-<br>
-<br>
-
 <p style="text-align: center;">. . .</p>
 
+<h2><i class="fa-solid fa-heart-circle-check"></i>&ensp;En Fin, Serafin</h2>
+Thank you for staying to the end of the article… I hope you find it useful 😊. See you soon... and #StayQueryous #ShizzleMyVizzle! 😏🧙‍♂️🪄
+
+ <h2><i class="fa-solid fa-download" aria-hidden="true"></i>&ensp;💾 PBIX &ensp;<i class="fa-solid fa-square-poll-vertical" aria-hidden="true"></i></h2> 
+
+🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)  
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle) 
+
+<p style="text-align: center;">. . .</p> 
 <br>
-
-## En Fin, Serafin
-This is the end of the article — but only the beginning of the series! 😋 Thank you for sticking with me and stay tuned for the next Deneb/Vega-Lite episode soon! 🧙‍♂️
-
-<br>
-
-## ⏬ PBIX  ⏏️
-🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
-
-***
-
-<br>
-
-<p style="text-align: center;">. . .</p>
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle)
-
-<p style="text-align: center;">. . .</p>
-
-***
 
 ---
 ## Footnotes

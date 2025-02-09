@@ -245,31 +245,19 @@ Now we know how to change marks shapes, we can go one step further by translatin
 }
 
 ```
-<br>
-
 <p style="text-align: center;">. . .</p>
 
+<h2><i class="fa-solid fa-heart-circle-check"></i>&ensp;En Fin, Serafin</h2>
+Thank you for staying to the end of the article… I hope you find it useful 😊. See you soon... and #StayQueryous #ShizzleMyVizzle! 😏🧙‍♂️🪄
+
+ <h2><i class="fa-solid fa-download" aria-hidden="true"></i>&ensp;💾 PBIX &ensp;<i class="fa-solid fa-square-poll-vertical" aria-hidden="true"></i></h2> 
+
+🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)  
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle) 
+
+<p style="text-align: center;">. . .</p> 
 <br>
-
-## En Fin, Serafin
-Thank you for staying to the end of the article… I hope you find it useful 😊. Join me on the next episode where things are going to get a lot more technical! 😏🧙‍♂️🪄
-
-<br>
-
-## ⏬ PBIX  ⏏️
-🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)
-
-***
-
-
-
-<br><p style="text-align: center;">. . .</p>
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle)
-
-<p style="text-align: center;">. . .</p><br>
-
-***
 
 
 ---

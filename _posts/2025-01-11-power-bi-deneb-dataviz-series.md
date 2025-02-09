@@ -4,7 +4,7 @@ title: PBI DataVizzle - A Journey through PowerBI DataViz
 date: 2025-01-11 14:32
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
-tags: [powerbi, dataviz, deneb, vega-lite]
+tags: [StayQueryous, ShizzleMyVizzle]
 description: Welcome and... Hello, world 👋🏼
 image: 
     path: assets/headers/pbix_banner2.png
@@ -13,7 +13,7 @@ image:
     alt: Power BI and Deneb
 ---
 
-## Welcome to my blog. I'm PBI DataVizzle, I will be blogging on DataViz and all types of PowerBI shizzle! 🧙🏼‍♂️📊🕊️
+## Welcome to my blog. I'm PBI DataVizzle, I will be blogging on DataViz and all types of PowerBI shizzle (...mostly Deneb and Vega-Lite)! 🧙🏼‍♂️📊🕊️
 
 ![Banner](/assets/img/deneb_walkthrough_images/pbi-datavizzle-super-banner.png)
 {:style="text-align:center;"}
