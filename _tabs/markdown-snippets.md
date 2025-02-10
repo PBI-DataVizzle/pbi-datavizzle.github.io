@@ -203,9 +203,11 @@ Define a Term
     }
   }
 {% endhighlight %}
+</html>
 
 <br>
 
+</html>
 <div id="vis0"></div>
   <script type="text/javascript">
     var spec = {
@@ -269,6 +271,7 @@ Define a Term
       }
     };
     vegaEmbed('#vis1', spec);
+
   </script>
   </html>
 
@@ -277,7 +280,6 @@ Define a Term
 <html>
   <body>
     <div id="vis2"></div>
-
     <script type="text/javascript">
       var spec = {
         $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
@@ -302,6 +304,7 @@ Define a Term
         }
       };
       vegaEmbed('#vis2', spec);
+      
     </script>
   </body>
 </html>
@@ -339,6 +342,7 @@ Define a Term
         }
       };
       vegaEmbed('#vis3', inline_spec);
+      
     </script>
   </body>
 </html>
