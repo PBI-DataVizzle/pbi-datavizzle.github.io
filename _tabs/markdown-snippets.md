@@ -169,15 +169,14 @@ Define a Term
   }
 
 ```
-<html>
-<button style="font-size:24px">Button <i class="fa fa-spinner"></i></button>
-</html>
 
-<html>
+
+<br>
+
+
+
 <details>
 <summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
-
-
 
 {% highlight JSONC linenos %}
 {
@@ -203,11 +202,44 @@ Define a Term
     }
   }
 {% endhighlight %}
-</html>
+</details>
+
+<p></p>
+
+<details>
+<summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
+
+{% highlight JSONC nolinenos %}
+{
+    $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+    description: "A simple bar chart with embedded data.",
+    data: {
+      values: [
+        {a: "A", b: 28}, /* comments */
+        {a: "B", b: 55}, // comments2
+        {a: "C", b: 43},
+        {a: "D", b: 91},
+        {a: "E2", b: 81},
+        {a: "F", b: 53},
+        {a: "G", b: 19},
+        {a: "H", b: 87},
+        {a: "I", b: 52}
+      ]
+    },
+    mark: "bar",
+    encoding: {
+      x: {field: "a", type: "ordinal"},
+      y: {field: "b", type: "quantitative"}
+    }
+  }
+{% endhighlight %}
+</details>
 
 <br>
 
-</html>
+<p></p>
+
+<html>
 <div id="vis0"></div>
   <script type="text/javascript">
     var spec = {
@@ -236,7 +268,6 @@ Define a Term
     };
     vegaEmbed('#vis0', spec);
   </script>
-</details>
 </html>
 
 <br>
@@ -271,7 +302,6 @@ Define a Term
       }
     };
     vegaEmbed('#vis1', spec);
-
   </script>
   </html>
 
@@ -304,7 +334,6 @@ Define a Term
         }
       };
       vegaEmbed('#vis2', spec);
-      
     </script>
   </body>
 </html>
@@ -315,7 +344,6 @@ Define a Term
 <html>
   <body>
     <div id="vis3"></div>
-
     <script type="text/javascript">
       var inline_spec = {
         $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
@@ -342,7 +370,7 @@ Define a Term
         }
       };
       vegaEmbed('#vis3', inline_spec);
-      
+
     </script>
   </body>
 </html>
