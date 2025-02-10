@@ -134,15 +134,6 @@ CALCULATE(
 )
 ```
 
-{% highlight JS linenos %}
-Distinct Vertices Label Prop = 
-CALCULATE( 
-  COUNTROWS( DISTINCT( 'Vertices Label Prop'[id] ) )
-  , 'Vertices Label Prop'[Type] in {"User", "Group"} 
-)
-{% endhighlight %}
-
-
 
 ### check boxes
 - [ ] check1
@@ -151,6 +142,7 @@ CALCULATE(
 ### terms
 Define a Term
 : definition
+
 
 ```jsonc
 {
@@ -177,12 +169,13 @@ Define a Term
   }
 
 ```
-
+<html>
 <button style="font-size:24px">Button <i class="fa fa-spinner"></i></button>
+</html>
 
 <html>
 <details>
-<summary>&ensp;Click here to reveal code&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
+<summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
 
 
 
