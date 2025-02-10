@@ -1,7 +1,7 @@
 ---
 layout: post
 title: S1E7 - Expressions & Conditional Formatting (pt2)
-date: 2025-02-10 00:00
+date: 2025-02-09 05:00
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
 tags: [walkthrough]
