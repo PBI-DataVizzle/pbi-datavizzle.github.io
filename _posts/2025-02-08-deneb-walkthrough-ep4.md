@@ -18,7 +18,7 @@ hidden: false
 
 ---
 
-![Styling Marks](assets\img\deneb_walkthrough_images/4a.webp "Styling Marks")
+![Styling Marks](assets/img/deneb_walkthrough_images/4a_styles.webp "Styling Marks")
 
 > 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!
 {: .prompt-info }
@@ -48,14 +48,14 @@ In the PBIX solution file, we can first copy and paste or duplicate the column c
   
 <br>
 
-![Styling Marks](assets/img/deneb_walkthrough_images/4b.webp "Styling Marks")
+![Styling Marks](assets/img/deneb_walkthrough_images/4b_styles.webp "Styling Marks")
 
 <br>
 
 ### Step 2: Change the mark type
 We want to start working on an area chart, so the next simple step is to replace mark type bar with area:
 
-![Styling Marks](assets/img/deneb_walkthrough_images/4c.webp "Styling Marks")
+![Styling Marks](assets/img/deneb_walkthrough_images/4c_styles.webp "Styling Marks")
 
 <details>
 <summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
@@ -64,7 +64,7 @@ We want to start working on an area chart, so the next simple step is to replace
 {
   "data": {"name": "dataset"},
   "mark": {
-    "type": "area",            // <-- replace "bar" with "area"
+    "type": "area",           
     "color": "yellow",
     "fill": "#F0E199",
     "stroke": "#E044A7",
@@ -81,7 +81,7 @@ We want to start working on an area chart, so the next simple step is to replace
 
 <br>
 
-![Styling Marks](assets/img/deneb_walkthrough_images/4D.webp "Styling Marks")
+![Styling Marks](assets/img/deneb_walkthrough_images/4d_styles.webp "Styling Marks")
 
 <br>
 
@@ -90,7 +90,7 @@ Technically speaking, line and area charts are best suited for trend analyses, t
 
 <br>
 
-![Styling Marks](assets/img/deneb_walkthrough_images/4E.webp "Styling Marks")
+![Styling Marks](assets/img/deneb_walkthrough_images/4e_styles.webp "Styling Marks")
 
 <br>
 
@@ -124,11 +124,11 @@ You will have noticed immediately that our Area Chart needs some TLC. In a few s
     "x": {
       "field": "EndOfMonth",
       "type": "nominal",
-      "sort": "-y",          // delete this line here (Ctrl+D shortcut)
+      "sort": "-y",          
       "axis": {}
       "axis": {
-        "labelAngle": 325,  // delete this section also
-        "labelPadding": 4   // and delete this section
+        "labelAngle": 325,  
+        "labelPadding": 4   
      }
     },
     "y": {
@@ -148,7 +148,7 @@ You will have noticed immediately that our Area Chart needs some TLC. In a few s
 
 <br>
 
-![Styling Marks](assets/img/deneb_walkthrough_images/4F.webp "Styling Marks")
+![Styling Marks](assets/img/deneb_walkthrough_images/4f_styles.webp "Styling Marks")
 
 <br>
 
@@ -180,8 +180,8 @@ We’ve mentioned in previous episodes that Vega-Lite needs a helping hand in de
   },
   "encoding": {
     "x": {
-      "field": "EndOfMonth",      // dataset date field
-      "type": "temporal",         // define type as "temporal"
+      "field": "EndOfMonth",      
+      "type": "temporal",         
       "axis": {}
     },
     "y": {
@@ -201,7 +201,7 @@ We’ve mentioned in previous episodes that Vega-Lite needs a helping hand in de
 
 <br>
 
-![Styling Marks](assets/img/deneb_walkthrough_images/4g.webp "Styling Marks")
+![Styling Marks](assets/img/deneb_walkthrough_images/4g_styles.webp "Styling Marks")
 
 <br>
 
@@ -290,7 +290,7 @@ Returning to our code, we want to add padding to boy x and y-axis separately:
       "timeUnit": "yearmonth",
       "axis": {
         "format": "%b-%y",
-        "labelPadding": 8      // <-- 8px padding between x-axis and chart
+        "labelPadding": 8   
       }
     },
     "y": {
@@ -299,7 +299,7 @@ Returning to our code, we want to add padding to boy x and y-axis separately:
       "axis": {
         "format": "£0,,.#M",
         "formatType": "pbiFormat",
-        "labelPadding": 18    // <-- 18px padding between y-axis and chart
+        "labelPadding": 18  
       }
     }
   }
