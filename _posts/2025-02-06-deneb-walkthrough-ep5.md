@@ -38,7 +38,7 @@ What do [single view](https://vega.github.io/vega-lite/docs/spec.html#single) an
 
 #### Single View
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
   "mark": {...},                    //   <--- single mark
@@ -53,7 +53,7 @@ What do [single view](https://vega.github.io/vega-lite/docs/spec.html#single) an
 
 #### Multi / Composite View
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
 /* ------------------------------------------------|
@@ -99,7 +99,7 @@ We’ll start with just the basics and gradually increase the complexity. I’ve
 Use this script for the config, by placing it here, we keep our specification code less cluttered, and easier to read 😊. I’m basically setting the fonts to “Segoe UI” and the font size for the labels to 16.
 
 
-```JSONC
+```jsonc
 {
   "view": {"stroke": "transparent"},
   "params": [                      //    <--- declare some parameters
@@ -144,7 +144,7 @@ Use this script for the config, by placing it here, we keep our specification co
 This will give us a nicely formatted set of axes and a tidy bar chart. I’ve used [band](https://vega.github.io/vega-lite/docs/scale.html#band) scaling, to provide a narrow bar shape and even spacing to provide some room for our layers.
 
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
   "layer": [                   // <<--- open layer
@@ -194,7 +194,7 @@ For illustrative purposes, I want us to build a separate chart so we can better 
 We are super efficient, so we will simply copy and paste the entire visual and then tweek a couple of lines of code:
 
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
   "layer": [                   
@@ -251,7 +251,7 @@ This is wonderful in it’s simplicity and when things start to get complicated 
 
 We are powering up! Now we will combine our two layers into a single chart. All we need to is to duplicate (copy and paste) our mark properties into the existing layer, and amend a few properties so we end up with two marks, one for Actual and the other for Budget:
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
   "layer": [                    //--- open layer
@@ -312,7 +312,7 @@ Hit play and take a bow you geni…… oh wait 😐
 #### Step 4: Cry 😭
 Erm. This is awkward. But we don’t have time to cry into our cornflakes just yet. We can fix this. First things first. We need to shift the bars along the X-Axis to create some separation…remember the “xOffset” attribute? Let’s head back to the code:
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
   "layer": [                   
@@ -362,7 +362,7 @@ I’ve included a few in-code descriptors to ease the congitive burden. Firstly,
 
 ##### *Example A: encoding channel below layer*
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
   "layer": [
@@ -423,7 +423,7 @@ ENCODING CHANNEL PLACED BELOW LAYER MARKS
 
 ##### *Example B: encoding channel above layer*
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
 /*---------------------------------------|
@@ -490,7 +490,7 @@ The quickest way to fix this is the trusty Copy and Paste. Copy the entire encod
 
 [//]: # PLACE IMAGE HERE
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
   "name": "GLOBAL ENCODING",
@@ -543,7 +543,7 @@ You’ll have noticed that in developing a lovely Deneb / Vega-Lite viz, the num
 
 As we have seen, we have a global encoding channel, and any subsequent mark-specific encoding properties we add will in fact overwrite the global properties. This is perfect. We don’t actually have to copy every line of the encoding channel for this to work. We actually only need to add the parts we want to change. I’m probably not making much sense now, let me show you:
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
   "encoding": {                  // <-- global encoding
@@ -607,7 +607,7 @@ For the penultimate step, to reinforce the flexibility and variety of encoding o
 
 #### Example C: Partial Global / Defined at the Mark-level
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
   "encoding": {
@@ -639,7 +639,7 @@ For the penultimate step, to reinforce the flexibility and variety of encoding o
 
 #### Example D: Partial Global / Defined at the Mark-level
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
  
@@ -683,7 +683,7 @@ This part is a breeze — trust me. In short, the order in which you code your m
 
 #### Example E: Actual behind the Budget
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
   "description": "MAIN LAYER",
@@ -714,7 +714,7 @@ So let’s do the switcheroo!
 
 #### Example F: Actual in front of Budget
 
-```JSONC
+```jsonc
 {
   "data": {"name": "dataset"},
   "description": "MAIN LAYER",
