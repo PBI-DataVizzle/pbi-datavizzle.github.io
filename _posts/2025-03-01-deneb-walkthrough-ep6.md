@@ -46,7 +46,13 @@ What are expressions? 🤔Think of them as data manipulations or transformations
 
 If we start by referring to the trusted [Vega documentation](https://vega.github.io/vega/docs/expressions/), you will soon realise you have entered a world of pain. Nested deep in the [Expressions](https://vega.github.io/vega/docs/expressions/) section, there is a small paragraph on something called *Control Flow Functions* 🤨
 
+![expressions](assets/img/deneb_walkthrough_images/6a_expressions.webp "expressions")
 
+and [elsewhere](https://vega.github.io/vega-lite/docs/types.html#expression) we see:
+
+![expressions](assets/img/deneb_walkthrough_images/6b_expressions.webp "expressions")
+![expressions](assets/img/deneb_walkthrough_images/6c_expressions.webp "expressions")
+![expressions](assets/img/deneb_walkthrough_images/6c_expressions.gif "expressions")
 
 > “Control whatty what-now… Ternary Opera-whatchimacallit??🤯
 
@@ -59,7 +65,7 @@ We’ll take a look at the DAX examples first.
 ### **DAX Examples**
 Below are 2 examples of typical conditional formatting measures using the `SWITCH()` function.
 
-** IMAGE **
+![expressions](assets/img/deneb_walkthrough_images/6e_expressions.png "expressions")
 
 That is indeed… tremendous.
 
