@@ -180,6 +180,7 @@ Define a Term
 
 <button style="font-size:24px">Button <i class="fa fa-spinner"></i></button>
 
+<html>
 <details>
 <summary>&ensp;Click here to reveal code&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
 
@@ -210,6 +211,7 @@ Define a Term
   }
 {% endhighlight %}
 
+<br>
 
 <div id="vis0"></div>
   <script type="text/javascript">
@@ -240,8 +242,11 @@ Define a Term
     vegaEmbed('#vis0', spec);
   </script>
 </details>
+</html>
 
--- 
+<br>
+
+--- 
 
 <div id="vis1"></div>
   <script type="text/javascript">
@@ -342,6 +347,7 @@ Define a Term
     </script>
   </body>
 </html>
+
 
 <br>
 
