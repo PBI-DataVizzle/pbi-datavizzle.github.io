@@ -61,6 +61,7 @@ We want to start working on an area chart, so the next simple step is to replace
 <summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
 
 {% highlight JSONC linenos %}
+
 {
   "data": {"name": "dataset"},
   "mark": {
@@ -75,8 +76,8 @@ We want to start working on an area chart, so the next simple step is to replace
     "y": {...}
   }
 }
-{% endhighlight %}
 
+{% endhighlight %}
 </details>
 
 <br>
