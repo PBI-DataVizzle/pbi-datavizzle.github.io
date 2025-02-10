@@ -2,9 +2,9 @@
 layout: post
 title: S1E1 - Marks and Encoding
 date: 2025-01-12 15:51
-category: [PowerBI, DataViz, Deneb, Vega-Lite]
+category: [Season-1, Deneb, Vega-Lite, PowerBI, Walkthrough]
 author: [A1, A2]
-tags: [StayQueryous, ShizzleMyVizzle]
+tags: [season1, walkthrough, marks]
 summary: Walkthrough
 description: Let’s learn to run before we fly 🕊️ — a walk-through of the fundamental building blocks in Vega-Lite data viz development
 image: 

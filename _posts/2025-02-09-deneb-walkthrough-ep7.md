@@ -2,9 +2,9 @@
 layout: post
 title: S1E7 - Expressions & Conditional Formatting (pt2)
 date: 2025-02-09 05:00
-category: [PowerBI, DataViz, Deneb, Vega-Lite]
+category: [Season-1, PowerBI, DataViz, Deneb, Vega-Lite, Walkthrough]
 author: [A1, A2]
-tags: [walkthrough]
+tags: [season1, walkthrough, conditional-formatting, expressions]
 summary: Walkthrough
 description: Marks are the core building blocks for chart development. In this article we will take a little dip into the different mark types available🕊️🧙🏼‍♂️✨
 image: 

@@ -2,9 +2,9 @@
 layout: post
 title: S1E2 - Mark Types
 date: 2025-02-03 00:00
-category: [PowerBI, DataViz, Deneb, Vega-Lite]
+category: [Season-1, PowerBI, Deneb, Vega-Lite, Walkthrough]
 author: [A1, A2]
-tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthrough]
+tags: [season1, walkthrough, marks]
 summary: Walkthrough
 description: Marks are the core building blocks for chart development. In this article we will take a little dip into the different mark types available🕊️🧙🏼‍♂️✨
 image: 

@@ -2,9 +2,9 @@
 layout: post
 title: S1E8 - Number Formatting
 date: 2025-02-09 08:00
-category: [PowerBI, DataViz, Deneb, Vega-Lite]
+category: [Season-1, PowerBI, DataViz, Deneb, Vega-Lite, Walkthrough]
 author: [A1, A2]
-tags: [walkthrough]
+tags: [season1, walkthrough, number-formatting]
 summary: Walkthrough
 description: Numbers need some attention, and just like DAX dynamic number formatting, in Vega-Lite we have plenty of options🕊️🧙🏼‍♂️✨
 image: 

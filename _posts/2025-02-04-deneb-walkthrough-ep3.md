@@ -2,9 +2,9 @@
 layout: post
 title: S1E3 - Styling Mark Properties (pt1)
 date: 2025-02-04 00:30:00
-category: [PowerBI, DataViz, Deneb, Vega-Lite]
+category: [Season-1, Deneb, Vega-Lite, PowerBI, Walkthrough]
 author: [A1, A2]
-tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, walkthrough]
+tags: [season1, walkthrough, marks]
 summary: Walkthrough
 description: Take chart customisation one gigantic step forward. Today’s walk-through looks at styling your chart elements to create truly compelling visualisations 🕊️🧙🏼‍♂️✨
 image: 

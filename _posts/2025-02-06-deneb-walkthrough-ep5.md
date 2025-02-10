@@ -2,9 +2,9 @@
 layout: post
 title: S1E5 - Layers
 date: 2025-02-06 02:00
-category: [PowerBI, DataViz, Deneb, Vega-Lite]
+category: [Season-1, Deneb, Vega-Lite, PowerBI, Walkthrough]
 author: [A1, A2]
-tags: [walkthrough]
+tags: [season1, walkthrough, layers]
 summary: Walkthrough
 description: Welcome to the layer cake 🕊️🧙🏼‍♂️✨
 image: 

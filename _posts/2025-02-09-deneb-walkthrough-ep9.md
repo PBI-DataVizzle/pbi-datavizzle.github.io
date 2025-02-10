@@ -1,10 +1,10 @@
 ---
 layout: post
-title: S1E10 - Small Multiples (Facets)
+title: S1E9 - Small Multiples (Facets)
 date: 2025-02-09 12:30
-category: [PowerBI, DataViz, Deneb, Vega-Lite]
+category: [Season-1, PowerBI, DataViz, Deneb, Vega-Lite, Walkthrough]
 author: [A1, A2]
-tags: [pwalkthrough]
+tags: [season1, walkthrough, facets]
 summary: Walkthrough
 description: For all the movie-lovers out there, we shall utilise facets to better identify which trilogy movie is best based on IMDB ratings. 🕊️🧙🏼‍♂️✨
 image: 
@@ -18,7 +18,7 @@ hidden: false
 
 ---
 
-![Styling Marks](assets/img/deneb_walkthrough_images/3a_styles.webp "Styling Marks")
+![Styling Marks](assets/img/deneb_walkthrough_images/9a_facets.webp "Styling Marks")
 
 > 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!
 {: .prompt-info }

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: EP10 - The World in 2100
+title: S1E10 - The World in 2100
 date: 2025-02-10 16:35
-category: [PowerBI, DataViz, Deneb, Vega-Lite]
+category: [Season-1, PowerBI, DataViz, Deneb, Vega-Lite, Walkthrough]
 author: [A1, A2]
-tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthrough]
+tags: [season1, walkthrough, advanced-tutorial, end-to-end]
 summary: Walkthrough
 description: Showcasing the art of the possible 🕊️🧙🏼‍♂️✨
 image: 
@@ -18,7 +18,7 @@ hidden: false
 
 ---
 
-![Styling Marks](assets/img/deneb_walkthrough_images/3a_styles.webp "Styling Marks")
+![Styling Marks](assets/img/deneb_walkthrough_images/10a_population.webp "Styling Marks")
 
 > 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!
 {: .prompt-info }
