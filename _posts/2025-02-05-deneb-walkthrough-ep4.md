@@ -226,7 +226,7 @@ We want to change how the date appears on our axis, I want to keep it simple —
 
 </details>
 
-<br>
+
 
 The result is good, but I want further customisation. I’d like to apply a “mmm-yy” format, eg: Jan-23, Jul-23 etc.
 
@@ -262,8 +262,6 @@ Returning to our code, we want to add padding to boy x and y-axis separately:
 
 <details>
 <summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
-<br>
-
 
 {% highlight JSONC linenos %}
 {
@@ -299,14 +297,12 @@ Returning to our code, we want to add padding to boy x and y-axis separately:
 {% endhighlight %}
 </details>
 
-<br> 
-
 Champion. Chart look fab, axes are on fleek. You’ll be pleased to know that was the hardest part… we will cruise through the next section, which is formatting the area mark properties.
 
 ### Step 6: Format Area Mark Properties
 There’s one mismatch between our PBI native chart and our Deneb area chart. Have you spotted it yet? Yup… correct… the bold pink outline (stroke) should be replaced. Let’s tackle that now:
 
-<br>
+
 
 ```jsonc
 {
@@ -326,11 +322,11 @@ There’s one mismatch between our PBI native chart and our Deneb area chart. Ha
 }
 ```
 
-<br>
+
 
 And in one big go, we will make all the changes we need:
 
-<b>
+
 
 ```jsonc
 {
