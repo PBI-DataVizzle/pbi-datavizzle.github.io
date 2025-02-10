@@ -57,11 +57,9 @@ We want to start working on an area chart, so the next simple step is to replace
 
 ![Styling Marks](assets/img/deneb_walkthrough_images/4c_styles.webp "Styling Marks")
 
-<details>
-<summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
 
-{% highlight JSONC linenos %}
 
+```jsonc
 {
   "data": {"name": "dataset"},
   "mark": {
@@ -76,9 +74,8 @@ We want to start working on an area chart, so the next simple step is to replace
     "y": {...}
   }
 }
+```
 
-{% endhighlight %}
-</details>
 
 <br>
 
@@ -107,10 +104,7 @@ You will have noticed immediately that our Area Chart needs some TLC. In a few s
 - This bit is a doddle, we’ll just delete a few pieces of code…
 
 
-<details>
-<summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
-
-{% highlight JSONC linenos %}
+```jsonc
 {
   "data": {"name": "dataset"},
   "mark": {
@@ -141,9 +135,7 @@ You will have noticed immediately that our Area Chart needs some TLC. In a few s
     }
   }
 }
-{% endhighlight %}
-
-</details>
+```
 
 
 <br>
@@ -164,11 +156,8 @@ We’ve mentioned in previous episodes that Vega-Lite needs a helping hand in de
 
 <br>
 
-<details>
-<summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
+```jsonc
 
-
-{% highlight JSONC linenos %}
 {
   "data": {"name": "dataset"},
   "mark": {
@@ -194,8 +183,7 @@ We’ve mentioned in previous episodes that Vega-Lite needs a helping hand in de
     }
   }
 }
-{% endhighlight %}
-</details>
+```
 
 <br> 
 
