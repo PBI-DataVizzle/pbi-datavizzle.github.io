@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EP11 - Expressions & Conditional Formatting (pt2)
-date: 2025-01-12 18:40
+date: 2025-02-14 18:40
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
 tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthrough]

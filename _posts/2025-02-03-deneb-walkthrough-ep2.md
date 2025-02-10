@@ -10,7 +10,7 @@ description: Marks are the core building blocks for chart development. In this a
 image: 
     path: assets/headers/post-headers/ep2.png #"C:/pbi_repos/github_page/pbi_datavizzle_blog/pbi-datavizzle.github.io/assets/headers/post-headers/ep1.png"
     width: 700
-    height: 400
+    # height: 400
     alt: Power BI and Deneb
 mermaid: true
 published: true

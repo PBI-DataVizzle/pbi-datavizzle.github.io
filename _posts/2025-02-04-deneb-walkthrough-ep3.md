@@ -1,7 +1,7 @@
 ---
 layout: post
 title: S1E3 - Styling Mark Properties (pt1)
-date: 2025-02-08 00:00
+date: 2025-02-04 00:30:00
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
 tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, walkthrough]

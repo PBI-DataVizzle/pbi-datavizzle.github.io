@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EP06 - Expressions & Conditional Formatting (pt1)
-date: 2025-01-12 18:15
+# date: 2025-02-09 01:00
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
 tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthrough]
@@ -14,7 +14,7 @@ image:
     alt: Power BI and Deneb
 mermaid: true
 published: true
-hidden: true
+hidden: false
 
 ---
 > 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!

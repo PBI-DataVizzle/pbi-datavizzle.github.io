@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EP09 - Small Multiples (Facets)
-date: 2025-01-12 18:30
+date: 2025-02-12 18:30
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
 tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthrough]

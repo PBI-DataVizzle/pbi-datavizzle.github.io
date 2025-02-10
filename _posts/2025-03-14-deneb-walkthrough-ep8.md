@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EP08 - Number Formatting
-date: 2025-01-12 18:25
+date: 2025-02-11 18:25
 category: [PowerBI, DataViz, Deneb, Vega-Lite]
 author: [A1, A2]
 tags: [powerbi, dataviz, deneb, vega-lite, data visualisation, power bi walkthrough]
