@@ -28,7 +28,9 @@ hidden: false
 
 ---
 
-[//]: # BODY
+### WATCH THIS SPACE...
+
+In the meantime, you can read the original [Medium article here](https://medium.com/@pbi-datavizzle/deneb-vega-lite-walkthrough-series-ep09-the-world-in-2100-showcasing-the-art-of-the-74baa48f716c)
 
 ---
 

@@ -28,7 +28,10 @@ hidden: false
 
 ---
 
-[//]: # BODY
+### WATCH THIS SPACE...
+
+In the meantime, you can read the original [Medium article here](https://medium.com/@pbi-datavizzle/deneb-vega-lite-walkthrough-series-ep08-small-multiples-facets-0e8d5f7f42b1)
+
 
 ---
 
