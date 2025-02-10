@@ -17,6 +17,7 @@ published: false
 hidden: true
 
 ---
+
 ![Styling Marks](assets/img/deneb_walkthrough_images/3a_styles.webp "Styling Marks")
 
 > 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!
@@ -24,20 +25,13 @@ hidden: true
 
 [//]: # Comment first footnoote, can be please anywhere and will display on footer
 [^fn-pbix]: PBIX: [Github Repo](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series){: width="700" height="400" }
+
 ---
 
 [//]: # BODY
 
 ---
 
-[//]: # FOOTER
-
----
-[^fn-pbix]: 🔗 Github Repo: [EP02 - Mark Types](https://github.com/PBIQueryous/Deneb/blob/main/Medium-VegaLite-Series/EP02_Deneb_VegaLite_Series%20-%20Marks%20Types.pbix)
-
----
-
-___
 
 <p style="text-align: center;">. . .</p>
 
@@ -54,4 +48,3 @@ Thank you for staying to the end of the article… I hope you find it useful �
 
 ---
 ## Footnotes
-
