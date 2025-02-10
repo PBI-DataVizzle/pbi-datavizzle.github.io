@@ -532,7 +532,7 @@ We are going to look at the DAX conditional formatting measure and recreate the 
 
 In Vega-Lite, we have several options. Let’s look at them individually, them put them into context:
 
-### Traditional IF Statement
+#### Traditional IF Statement
 Datum
 : single data point / data value
 
@@ -547,7 +547,7 @@ Datum
 
 ```
 
-### Ternary Operators (kinda like shortcuts)
+#### Ternary Operators (kinda like shortcuts)
 ```jsonc
 // ternary operators
 "color": {
