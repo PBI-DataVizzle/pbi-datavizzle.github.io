@@ -203,12 +203,7 @@ This is where Vega-Lite shines, and this is where we will shine too 🪄✨… r
 We want to change how the date appears on our axis, I want to keep it simple — I only want to see the month and year. We can achieve this really cleanly by adding a timeUnit attribute, and 1 single line of code:
 
 
-<details>
-<summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
-
-
-{% highlight JSONC linenos %}
-
+```jsonc
 {
   "data": {"name": "dataset"},
   "mark": {...},
@@ -222,9 +217,8 @@ We want to change how the date appears on our axis, I want to keep it simple —
     "y": {...}
   }
 }
-{% endhighlight %}
+```
 
-</details>
 
 
 
@@ -260,10 +254,7 @@ We want to create some space between the axis labels and the chart canvas. This 
 
 Returning to our code, we want to add padding to boy x and y-axis separately:
 
-<details>
-<summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
-
-{% highlight JSONC linenos %}
+```jsonc
 {
   "data": {"name": "dataset"},
   "mark": {
@@ -294,8 +285,7 @@ Returning to our code, we want to add padding to boy x and y-axis separately:
     }
   }
 }
-{% endhighlight %}
-</details>
+```
 
 Champion. Chart look fab, axes are on fleek. You’ll be pleased to know that was the hardest part… we will cruise through the next section, which is formatting the area mark properties.
 
