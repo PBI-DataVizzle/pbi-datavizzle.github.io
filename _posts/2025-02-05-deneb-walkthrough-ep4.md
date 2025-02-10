@@ -109,7 +109,6 @@ You will have noticed immediately that our Area Chart needs some TLC. In a few s
 
 <details>
 <summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
-<br>
 
 {% highlight JSONC linenos %}
 {
@@ -167,7 +166,7 @@ We’ve mentioned in previous episodes that Vega-Lite needs a helping hand in de
 
 <details>
 <summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
-<br>
+
 
 {% highlight JSONC linenos %}
 {
@@ -198,7 +197,9 @@ We’ve mentioned in previous episodes that Vega-Lite needs a helping hand in de
 {% endhighlight %}
 </details>
 
-<br> And the result is very tidy. Take note, when using a `temporal` data type, Vega-Lite automatically treat it as a *continuous* field:
+<br> 
+
+And the result is very tidy. Take note, when using a `temporal` data type, Vega-Lite automatically treat it as a *continuous* field:
 
 <br>
 
@@ -216,7 +217,7 @@ We want to change how the date appears on our axis, I want to keep it simple —
 
 <details>
 <summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
-<br>
+
 
 {% highlight JSONC linenos %}
 
@@ -237,7 +238,9 @@ We want to change how the date appears on our axis, I want to keep it simple —
 
 </details>
 
-<br>The result is good, but I want further customisation. I’d like to apply a “mmm-yy” format, eg: Jan-23, Jul-23 etc.
+<br>
+
+The result is good, but I want further customisation. I’d like to apply a “mmm-yy” format, eg: Jan-23, Jul-23 etc.
 
 ```jsonc
 {
@@ -308,8 +311,9 @@ Returning to our code, we want to add padding to boy x and y-axis separately:
 {% endhighlight %}
 </details>
 
+<br> 
 
-<br> Champion. Chart look fab, axes are on fleek. You’ll be pleased to know that was the hardest part… we will cruise through the next section, which is formatting the area mark properties.
+Champion. Chart look fab, axes are on fleek. You’ll be pleased to know that was the hardest part… we will cruise through the next section, which is formatting the area mark properties.
 
 ### Step 6: Format Area Mark Properties
 There’s one mismatch between our PBI native chart and our Deneb area chart. Have you spotted it yet? Yup… correct… the bold pink outline (stroke) should be replaced. Let’s tackle that now:
