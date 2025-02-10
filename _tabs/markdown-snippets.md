@@ -175,65 +175,10 @@ Define a Term
 
 
 
-<details>
-<summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
-
-{% highlight JSONC linenos %}
-{
-    $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-    description: "A simple bar chart with embedded data.",
-    data: {
-      values: [
-        {a: "A", b: 28}, /* comments */
-        {a: "B", b: 55}, // comments2
-        {a: "C", b: 43},
-        {a: "D", b: 91},
-        {a: "E2", b: 81},
-        {a: "F", b: 53},
-        {a: "G", b: 19},
-        {a: "H", b: 87},
-        {a: "I", b: 52}
-      ]
-    },
-    mark: "bar",
-    encoding: {
-      x: {field: "a", type: "ordinal"},
-      y: {field: "b", type: "quantitative"}
-    }
-  }
-{% endhighlight %}
-</details>
 
 <p></p>
 
-<details>
-<summary>&ensp;<mark>Click here to reveal code</mark>&ensp; <i class="fa-solid fa-code"></i>&ensp;⬇️</summary>
 
-{% highlight JSONC nolinenos %}
-{
-    $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-    description: "A simple bar chart with embedded data.",
-    data: {
-      values: [
-        {a: "A", b: 28}, /* comments */
-        {a: "B", b: 55}, // comments2
-        {a: "C", b: 43},
-        {a: "D", b: 91},
-        {a: "E2", b: 81},
-        {a: "F", b: 53},
-        {a: "G", b: 19},
-        {a: "H", b: 87},
-        {a: "I", b: 52}
-      ]
-    },
-    mark: "bar",
-    encoding: {
-      x: {field: "a", type: "ordinal"},
-      y: {field: "b", type: "quantitative"}
-    }
-  }
-{% endhighlight %}
-</details>
 
 <br>
 
