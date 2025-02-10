@@ -18,7 +18,7 @@ hidden: false
 
 ---
 
-![Styling Marks](assets/img/deneb_walkthrough_images/4a.webp "Styling Marks")
+![Styling Marks](assets\img\deneb_walkthrough_images/4a.webp "Styling Marks")
 
 > 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!
 {: .prompt-info }
@@ -81,7 +81,7 @@ We want to start working on an area chart, so the next simple step is to replace
 
 <br>
 
-![Styling Marks](assets/img/deneb_walkthrough_images/4d.webp "Styling Marks")
+![Styling Marks](assets/img/deneb_walkthrough_images/4D.webp "Styling Marks")
 
 <br>
 
@@ -90,7 +90,7 @@ Technically speaking, line and area charts are best suited for trend analyses, t
 
 <br>
 
-![Styling Marks](assets/img/deneb_walkthrough_images/4e.webp "Styling Marks")
+![Styling Marks](assets/img/deneb_walkthrough_images/4E.webp "Styling Marks")
 
 <br>
 
@@ -148,7 +148,7 @@ You will have noticed immediately that our Area Chart needs some TLC. In a few s
 
 <br>
 
-![Styling Marks](assets/img/deneb_walkthrough_images/4f.webp "Styling Marks")
+![Styling Marks](assets/img/deneb_walkthrough_images/4F.webp "Styling Marks")
 
 <br>
 
