@@ -248,6 +248,7 @@ Define a Term
 
 --- 
 
+<html>
 <div id="vis1"></div>
   <script type="text/javascript">
     var spec = {
@@ -276,6 +277,7 @@ Define a Term
     };
     vegaEmbed('#vis1', spec);
   </script>
+  </html>
 
 <br>
 
