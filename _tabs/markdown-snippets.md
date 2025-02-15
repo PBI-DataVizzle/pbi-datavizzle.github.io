@@ -126,7 +126,7 @@ FROM table1 as t
 
 
 ### dax highlighter 
-```dax
+```ruby
 Distinct Vertices Label Prop = 
 CALCULATE( 
   COUNTROWS( DISTINCT( 'Vertices Label Prop'[id] ) )
@@ -143,6 +143,11 @@ CALCULATE(
 Define a Term
 : definition
 
+
+
+{::options parse_block_html="true" /}
+  <details><summary markdown="span"><b><i class="fa-solid fa-laptop-code" aria-hidden="true" style="color: orange"></i>&ensp;Dropdown</b></summary>
+    
 
 ```jsonc
 
@@ -171,10 +176,95 @@ Define a Term
 
 ```
 
+  </details>
+{::options parse_block_html="false" /}
+
+<br>
+
+{::options parse_block_html="true" /}
+<details><summary markdown="span"><b><i class="fa-solid fa-laptop-code" aria-hidden="true" style="color: orange"></i>&ensp;Reveal Code: HTML</b></summary>
+
+
+```html
+<html>
+<div id="vis0"></div>
+  <script type="text/javascript">
+    var spec = {
+      $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+      description: 'A simple bar chart with embedded data.',
+      width: 400,
+      height: 200,
+      data: {
+        values: [
+          {a: 'A', b: 28},
+          {a: 'B', b: 55},
+          {a: 'C', b: 43},
+          {a: 'D', b: 91},
+          {a: 'E', b: 81},
+          {a: 'F', b: 53},
+          {a: 'G', b: 19},
+          {a: 'H', b: 87},
+          {a: 'I', b: 52}
+        ]
+      },
+      mark: 'bar',
+      encoding: {
+        x: {field: 'a', type: 'ordinal'},
+        y: {field: 'b', type: 'quantitative'}
+      }
+    };
+    vegaEmbed('#vis0', spec);
+  </script>
+</html>
+```
+</details>
+{::options parse_block_html="false" /}
 
 <br>
 
 
+{::options parse_block_html="true" /}
+<details><summary markdown="span"><b><i class="fa-solid fa-laptop-code" aria-hidden="true" style="color: orange"></i>&ensp;Reveal Code: VEGALITE</b></summary>
+
+
+<html>
+<div id="visVL"></div>
+  <script type="text/javascript">
+    var spec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Multi-series Line Chart with Halo. Use pivot and repeat-layer as a workaround to facet groups of lines and their halo strokes. See https://github.com/vega/vega-lite/issues/6192 for more discussion.",
+  "data": {"url": "https://raw.githubusercontent.com/vega/vega/refs/heads/main/docs/data/stocks.csv"},
+  "transform": [{
+    "pivot": "symbol",
+    "value": "price",
+    "groupby": ["date"]
+  }],
+  "repeat": {
+    "layer": ["AAPL", "AMZN", "GOOG", "IBM", "MSFT"]
+  },
+  "spec": {
+    "layer": [{
+      "mark": {"type": "line", "stroke": "white", "strokeWidth": 4},
+      "encoding": {
+        "x": {"field": "date", "type": "temporal"},
+        "y": {"field": {"repeat": "layer"}, "type": "quantitative", "title": "price"}
+      }
+    },{
+      "mark": {"type": "line"},
+      "encoding": {
+        "x": {"field": "date", "type": "temporal"},
+        "y": {"field": {"repeat": "layer"}, "type": "quantitative", "title": "price"},
+        "stroke": {"datum": {"repeat": "layer"}, "type": "nominal"}
+      }
+    }]
+  }
+};
+    vegaEmbed('#visVL', spec);
+  </script>
+</html>
+
+</details>
+{::options parse_block_html="false" /}
 
 
 <p></p>
