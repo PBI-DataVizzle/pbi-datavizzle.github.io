@@ -223,6 +223,48 @@ Define a Term
 <br>
 
 
+{::options parse_block_html="true" /}
+<details><summary markdown="span"><b><i class="fa-solid fa-laptop-code" aria-hidden="true" style="color: orange"></i>&ensp;Reveal Code: VEGALITE</b></summary>
+
+
+<html>
+<div id="visVL"></div>
+  <script type="text/javascript">
+    var spec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Multi-series Line Chart with Halo. Use pivot and repeat-layer as a workaround to facet groups of lines and their halo strokes. See https://github.com/vega/vega-lite/issues/6192 for more discussion.",
+  "data": {"url": "https://raw.githubusercontent.com/vega/vega/refs/heads/main/docs/data/stocks.csv"},
+  "transform": [{
+    "pivot": "symbol",
+    "value": "price",
+    "groupby": ["date"]
+  }],
+  "repeat": {
+    "layer": ["AAPL", "AMZN", "GOOG", "IBM", "MSFT"]
+  },
+  "spec": {
+    "layer": [{
+      "mark": {"type": "line", "stroke": "white", "strokeWidth": 4},
+      "encoding": {
+        "x": {"field": "date", "type": "temporal"},
+        "y": {"field": {"repeat": "layer"}, "type": "quantitative", "title": "price"}
+      }
+    },{
+      "mark": {"type": "line"},
+      "encoding": {
+        "x": {"field": "date", "type": "temporal"},
+        "y": {"field": {"repeat": "layer"}, "type": "quantitative", "title": "price"},
+        "stroke": {"datum": {"repeat": "layer"}, "type": "nominal"}
+      }
+    }]
+  }
+};
+    vegaEmbed('#visVL', spec);
+  </script>
+</html>
+
+</details>
+{::options parse_block_html="false" /}
 
 
 <p></p>
