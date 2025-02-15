@@ -126,7 +126,7 @@ FROM table1 as t
 
 
 ### dax highlighter 
-```js
+```dax
 Distinct Vertices Label Prop = 
 CALCULATE( 
   COUNTROWS( DISTINCT( 'Vertices Label Prop'[id] ) )
@@ -145,6 +145,7 @@ Define a Term
 
 
 ```jsonc
+
 {
     $schema: "https://vega.github.io/schema/vega-lite/v5.json",
     description: "A simple bar chart with embedded data.",
