@@ -24,7 +24,7 @@ hidden: false
 {: .prompt-info }
 
 [//]: # Comment first footnoote, can be please anywhere and will display on footer
-[^fn-pbix]: PBIX: [Github Repo](https://github.com/PBI-DataVizzle/pbi_content/tree/main/deneb_walkthrough_series){: width="700" height="400" }
+[^fn-pbix]: PBIX: [Github Repo](https://github.com/PBI-DataVizzle/pbi_content/tree/main/my_deneb_showcases/deneb_walkthrough_series){: width="700" height="400" }
 
 ---
 
@@ -41,7 +41,7 @@ In the meantime, you can read the original [Medium article here](https://medium.
 Thank you for staying to the end of the article… I hope you find it useful 😊. See you soon, and remember... #StayQueryous!🧙‍♂️🪄  
 
 ## <center><i class="fa-solid fa-download" aria-hidden="true"></i>&nbsp;  PBIX 💾 </center>
-🔗 Repo: [Github Repo PBIX Treasure Trove - Deneb Walkthrough Series](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series)  
+🔗 Repo: [Github Repo PBIX Treasure Trove](https://github.com/PBI-DataVizzle/pbi_content/tree/main/my_deneb_showcases)  
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/pbidatavizzle) 
 
