@@ -18,7 +18,10 @@ hidden: true
 
 ---
 
-![Styling Marks](assets/img/deneb_walkthrough_images/3a_styles.webp "Styling Marks")
+![Line Charts](assets/headers/post-headers/s2e1/header.png "Line Charts")
+
+---
+
 
 > 💌 `PBIX` file available at the end of the article [^fn-pbix]  Enjoy!
 {: .prompt-info }
@@ -28,9 +31,185 @@ hidden: true
 
 ---
 
-[//]: # BODY
+## <i class="fa-solid fa-hat-wizard fa-2x" style="color: blueviolet"></i>&ensp;Intro
+Welcome to **Season 2** of the Vega-Lite walkthrough series. In this season, we will go step-by-step through many of the Vega-Lite Examples - learning loads of techniques and tips along the way. Enjoy and welcome! 🕊️
+
+<br>
 
 ---
+
+## <i class="fa-solid fa-database fa-2x" style="color: limegreen"></i>&ensp;Data
+All data used in this series can be found in the Vega github repo: &emsp; <br> [<i class="fas fa-database"></i>&ensp; Official Vega & Vega-Lite Data Source Repo &ensp; <i class="fas fa-external-link-alt"></i>](https://github.com/vega/vega/tree/main/docs/data)
+
+<p style="text-align: center;">. . .</p> 
+
+## <i class="fa-solid fa-brain fa-2x" style="color: hotpink"></i>&ensp;Concept
+Here is the concept we will rebuild and better understand. The full script can be expanded below.
+<html>
+<div id="vis_concept"></div>
+  <script type="text/javascript">
+    var spec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Multi-series line chart with labels and interactive highlight on hover.  We also set the selection's initial value to provide a better screenshot",
+  "width": 600,
+  "height": 300,
+  // when opening in the Vega Online Editor, remember to delete the raw path url before /data/ - eg: "https://raw.githubusercontent.com/vega/vega/refs/heads/main/docs/"
+  "data": {"url": "https://raw.githubusercontent.com/vega/vega/refs/heads/main/docs/data/stocks.csv"}, 
+  "title": 
+  { "text": "Vega-Lite Interactive Line Chart",
+    "subtitle": "Data Source: stocks.csv",
+    "subtitleFontStyle": "italic"
+    },
+  "transform": [{"filter": "datum.symbol!=='IBM'"}],
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": "date"},
+    "y": {"field": "price", "type": "quantitative", "title": "price"},
+    "color": {
+      "condition": {
+        "param": "hover",
+        "field":"symbol",
+        "type":"nominal",
+        "legend": null
+      },
+      "value": "grey"
+    },
+    "opacity": {
+      "condition": {
+        "param": "hover",
+        "value": 1
+      },
+      "value": 0.2
+    }
+  },
+  "layer": [{
+    "description": "transparent layer to make it easier to trigger selection",
+    "params": [{
+      "name": "hover",
+      "value": [{"symbol": "AAPL"}],
+      "select": {
+        "type": "point",
+        "fields": ["symbol"],
+        "on": "pointerover"
+      }
+    }],
+    "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+  }, {
+    "mark": "line"
+  }, {
+    "encoding": {
+      "x": {"aggregate": "max", "field": "date"},
+      "y": {"aggregate": {"argmax": "date"}, "field": "price"}
+    },
+    "layer": [{
+      "mark": {"type": "circle"}
+    }, {
+      "mark": {"type": "text", "align": "left", "dx": 4},
+      "encoding": {"text": {"field":"symbol", "type": "nominal"}}
+    }]
+  }],
+  "config": {"view": {"stroke": null}}
+};
+    vegaEmbed('#vis_concept', spec);
+  </script>
+</html>
+
+> **Important Note: Viewing Vega/Vega-Lite Outputs** <br>
+> When opening in the Vega Online Editor, remember to delete the raw path url before /data/. Examples: <br>
+> 
+> **Github pages:** <br> • "data": {"url": "https://raw.githubusercontent.com/vega/vega/refs/heads/main/docs/data/stocks.csv"} <br>
+> 
+> **For online editor:** <br> • "data": {"url": "data/stocks.csv} <br>
+> 
+> **For PowerBI:** <br> • "data": {"name": "dataset"} <br>
+{: .prompt-warning }
+
+
+
+
+{::options parse_block_html="true" /}
+<details><summary markdown="span"><b><i class="fa-solid fa-laptop-code" aria-hidden="true" style="color: orange"></i>&ensp;Reveal Vega-Lite Spec: </b></summary>
+
+```jsonc
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Multi-series line chart with labels and interactive highlight on hover.  We also set the selection's initial value to provide a better screenshot",
+  "width": 600,
+  "height": 300,
+  /* when opening in the Vega Online Editor, remember to delete the raw path url before /data/ */
+  /* • eg: for online editor | "data": {"url": "data/stocks.csv"} */
+  /* • eg: for PowerBI | "data": {"name": "dataset"} */
+  "data": {"url": "data/stocks.csv"},
+  "transform": [{"filter": "datum.symbol!=='IBM'"}],
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": "date"},
+    "y": {"field": "price", "type": "quantitative", "title": "price"},
+    "color": {
+      "condition": {
+        "param": "hover",
+        "field":"symbol",
+        "type":"nominal",
+        "legend": null
+      },
+      "value": "grey"
+    },
+    "opacity": {
+      "condition": {
+        "param": "hover",
+        "value": 1
+      },
+      "value": 0.2
+    }
+  },
+  "layer": [{
+    "description": "transparent layer to make it easier to trigger selection",
+    "params": [{
+      "name": "hover",
+      "value": [{"symbol": "AAPL"}],
+      "select": {
+        "type": "point",
+        "fields": ["symbol"],
+        "on": "pointerover"
+      }
+    }],
+    "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+  }, {
+    "mark": "line"
+  }, {
+    "encoding": {
+      "x": {"aggregate": "max", "field": "date"},
+      "y": {"aggregate": {"argmax": "date"}, "field": "price"}
+    },
+    "layer": [{
+      "mark": {"type": "circle"}
+    }, {
+      "mark": {"type": "text", "align": "left", "dx": 4},
+      "encoding": {"text": {"field":"symbol", "type": "nominal"}}
+    }]
+  }],
+  "config": {"view": {"stroke": null}}
+}
+```
+
+</details>
+{::options parse_block_html="false" /}
+
+***
+
+<p style="text-align: center;">. . .</p> 
+
+## <i class="fa-solid fa-person-digging fa-2x" style="color: darkorange"></i>&ensp;Build
+
+<p style="text-align: center;">. . .</p> 
+
+## <i class="fa-solid fa-file-code fa-2x" style="color: deepskyblue" ></i>&ensp;Code
+
+<p style="text-align: center;">. . .</p> 
+
+## <i class="fa-solid fa-pepper-hot fa-2x" style="color: crimson"></i>&ensp;Creation
+
+<br>
+
+***
 
 
 <p style="text-align: center;">. . .</p>

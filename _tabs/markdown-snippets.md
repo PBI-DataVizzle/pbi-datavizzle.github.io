@@ -6,6 +6,14 @@ order: 5
 toc: true
 ---
 
+### [<i class="fas fa-database"></i>&ensp; Vega & Vega-Lite Data Source Repo &ensp; <i class="fas fa-external-link-alt"></i>](https://github.com/vega/vega/tree/main/docs/data)
+
+<html>
+<script type="text/javascript">
+  var vega_repo = "https://raw.githubusercontent.com/vega/vega/refs/heads/main/docs/";
+  </script>
+</html>
+
 ### Step <i class="fa-solid fa-1"></i>&ensp;
 
 #### Step <i class="fa-solid fa-1"></i>&ensp;
@@ -232,32 +240,56 @@ Define a Term
   <script type="text/javascript">
     var spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Multi-series Line Chart with Halo. Use pivot and repeat-layer as a workaround to facet groups of lines and their halo strokes. See https://github.com/vega/vega-lite/issues/6192 for more discussion.",
+  "description": "Multi-series line chart with labels and interactive highlight on hover.  We also set the selection's initial value to provide a better screenshot",
   "data": {"url": "https://raw.githubusercontent.com/vega/vega/refs/heads/main/docs/data/stocks.csv"},
-  "transform": [{
-    "pivot": "symbol",
-    "value": "price",
-    "groupby": ["date"]
-  }],
-  "repeat": {
-    "layer": ["AAPL", "AMZN", "GOOG", "IBM", "MSFT"]
+  "transform": [{"filter": "datum.symbol!=='IBM'"}],
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": "date"},
+    "y": {"field": "price", "type": "quantitative", "title": "price"},
+    "color": {
+      "condition": {
+        "param": "hover",
+        "field":"symbol",
+        "type":"nominal",
+        "legend": null
+      },
+      "value": "grey"
+    },
+    "opacity": {
+      "condition": {
+        "param": "hover",
+        "value": 1
+      },
+      "value": 0.2
+    }
   },
-  "spec": {
+  "layer": [{
+    "description": "transparent layer to make it easier to trigger selection",
+    "params": [{
+      "name": "hover",
+      "value": [{"symbol": "AAPL"}],
+      "select": {
+        "type": "point",
+        "fields": ["symbol"],
+        "on": "pointerover"
+      }
+    }],
+    "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+  }, {
+    "mark": "line"
+  }, {
+    "encoding": {
+      "x": {"aggregate": "max", "field": "date"},
+      "y": {"aggregate": {"argmax": "date"}, "field": "price"}
+    },
     "layer": [{
-      "mark": {"type": "line", "stroke": "white", "strokeWidth": 4},
-      "encoding": {
-        "x": {"field": "date", "type": "temporal"},
-        "y": {"field": {"repeat": "layer"}, "type": "quantitative", "title": "price"}
-      }
-    },{
-      "mark": {"type": "line"},
-      "encoding": {
-        "x": {"field": "date", "type": "temporal"},
-        "y": {"field": {"repeat": "layer"}, "type": "quantitative", "title": "price"},
-        "stroke": {"datum": {"repeat": "layer"}, "type": "nominal"}
-      }
+      "mark": {"type": "circle"}
+    }, {
+      "mark": {"type": "text", "align": "left", "dx": 4},
+      "encoding": {"text": {"field":"symbol", "type": "nominal"}}
     }]
-  }
+  }],
+  "config": {"view": {"stroke": null}}
 };
     vegaEmbed('#visVL', spec);
   </script>
@@ -269,6 +301,81 @@ Define a Term
 
 <p></p>
 
+
+{::options parse_block_html="true" /}
+<details><summary markdown="span"><b><i class="fa-solid fa-laptop-code" aria-hidden="true" style="color: orange"></i>&ensp;Reveal Code: VEGALITE</b></summary>
+
+
+
+<html>
+  <div id="visVL2"></div>
+  <script type="text/javascript">
+    var spec = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "description": "Multi-series line chart with labels and interactive highlight on hover.",
+      "data": {"url": vega_repo + "data/stocks.csv"},
+      "transform": [{"filter": "datum.symbol!=='IBM'"}],
+      "encoding": {
+        "x": {"field": "date", "type": "temporal", "title": "date"},
+        "y": {"field": "price", "type": "quantitative", "title": "price"},
+        "color": {
+          "condition": {
+            "param": "hover",
+            "field":"symbol",
+            "type":"nominal",
+            "legend": null
+          },
+          "value": "grey"
+        },
+        "opacity": {
+          "condition": {
+            "param": "hover",
+            "value": 1
+          },
+          "value": 0.2
+        }
+      },
+      "layer": [
+        {
+          "description": "transparent layer to make it easier to trigger selection",
+          "params": [{
+            "name": "hover",
+            "value": [{"symbol": "AAPL"}],
+            "select": {
+              "type": "point",
+              "fields": ["symbol"],
+              "on": "pointerover"
+            }
+          }],
+          "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+        },
+        {
+          "mark": "line"
+        },
+        {
+          "encoding": {
+            "x": {"aggregate": "max", "field": "date"},
+            "y": {"aggregate": {"argmax": "date"}, "field": "price"}
+          },
+          "layer": [
+            {"mark": {"type": "circle"}},
+            {
+              "mark": {"type": "text", "align": "left", "dx": 4},
+              "encoding": {"text": {"field":"symbol", "type": "nominal"}}
+            }
+          ]
+        }
+      ],
+      "config": {"view": {"stroke": null}}
+    };
+
+    vegaEmbed('#visVL2', spec);
+  </script>
+</html>
+
+
+</details>
+{::options parse_block_html="false" /}
 
 
 <br>
