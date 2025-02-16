@@ -27,7 +27,7 @@ hidden: true
 {: .prompt-info }
 
 [//]: # Comment first footnoote, can be please anywhere and will display on footer
-[^fn-pbix]: PBIX: [Github Repo](https://github.com/PBI-DataVizzle/Deneb/tree/main/Medium-VegaLite-Series){: width="700" height="400" }
+[^fn-pbix]: PBIX: [Repo - Walkthrough Series](https://github.com/PBI-DataVizzle/pbi_content/tree/main/my_deneb_showcases/deneb_walkthrough_series){: width="700" height="400" }
 
 ---
 
