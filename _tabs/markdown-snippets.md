@@ -86,6 +86,17 @@ Click on the @icon-camera icon to take a screen shot.
 <p>Used on a button:</p>
 <button style="font-size:24px">Button <i class="fa fa-spinner"></i></button>
 
+{: .ignore-errors}
+```js
+{
+  "data": {"name": "dataset"}
+  // comments
+  /* json comments */
+  ...
+}
+
+```
+
 
 ```sql
 SELECT 
