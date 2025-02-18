@@ -86,8 +86,8 @@ Click on the @icon-camera icon to take a screen shot.
 <p>Used on a button:</p>
 <button style="font-size:24px">Button <i class="fa fa-spinner"></i></button>
 
-{: .ignore-errors}
-```js
+
+```jsonc
 {
   "data": {"name": "dataset"}
   // comments
@@ -96,6 +96,45 @@ Click on the @icon-camera icon to take a screen shot.
 }
 
 ```
+
+
+
+| Column 1       | Column 2                                   |
+| -------------- | ------------------------------------------ |
+| Example JSON 1 | `{ "name": "Alice", "age": 25 }`           |
+| Example JSON 2 | `{ "city": "New York", "country": "USA" }` |
+
+
+| Column 1       | Column 2                                          |
+| -------------- | ------------------------------------------------- |
+| Example JSON 1 | ```json {"name": "Alice", "age": 25}```           |
+| Example JSON 2 | ```json {"city": "New York", "country": "USA"}``` |
+
+
+
+
+<table border="1">
+  <tr>
+    <td>Code Block 1</td>
+    <td>Code Block 2</td>
+  </tr>
+  <tr>
+    <td>
+      <pre><code class="language-diff">
+      { "data": {"name": "dataset"} } 
+      </code></pre> 
+    </td> 
+    <td> 
+      <pre><code class="language-diff"> 
+      { "data": 
+      + {"name": "dataset"} 
+      } 
+    </code></pre> 
+    </td> 
+    </tr>
+
+</table>
+
 
 
 ```sql
@@ -197,6 +236,35 @@ Define a Term
 
   </details>
 {::options parse_block_html="false" /}
+
+<br>
+
+```jsonc
+
+{
+    $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+    description: "A simple bar chart with embedded data.",
+    data: {
+      values: [
+        {a: "A", b: 28}, /* comments */
+        {a: "B", b: 55}, // comments2
+        {a: "C", b: 43},
+        {a: "D", b: 91},
+        {a: "E2", b: 81},
+        {a: "F", b: 53},
+        {a: "G", b: 19},
+        {a: "H", b: 87},
+        {a: "I", b: 52}
+      ]
+    },
+    mark: "bar",
+    encoding: {
+      x: {field: "a", type: "ordinal"},
+      y: {field: "b", type: "quantitative"}
+    }
+  }
+
+```
 
 <br>
 
