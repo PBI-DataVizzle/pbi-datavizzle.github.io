@@ -4,6 +4,7 @@ layout: post
 icon: fa-solid fa-toilet-paper
 order: 5
 toc: true
+mermaid: true
 ---
 
 ### [<i class="fas fa-database"></i>&ensp; Vega & Vega-Lite Data Source Repo &ensp; <i class="fas fa-external-link-alt"></i>](https://github.com/vega/vega/tree/main/docs/data)
@@ -97,6 +98,93 @@ Click on the @icon-camera icon to take a screen shot.
 
 ```
 
+[link to check box](#check-boxes)
+
+```mermaid
+architecture-beta
+    group api(cloud)[API]
+
+    service db(database)[Database] in api
+    service disk1(disk)[Storage] in api
+    service disk2(disk)[Storage] in api
+    service server(server)[Server] in api
+
+    db:L -- R:server
+    disk1:T -- B:server
+    disk2:T -- B:db
+```
+
+
+``` mermaid
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
+
+```mermaid
+erDiagram
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : has
+    CUSTOMER ||--o{ ORDER : places
+    CUSTOMER ||--o{ INVOICE : "liable for"
+    DELIVERY-ADDRESS ||--o{ ORDER : receives
+    INVOICE ||--|{ ORDER : covers
+    ORDER ||--|{ ORDER-ITEM : includes
+    PRODUCT-CATEGORY ||--|{ PRODUCT : contains
+    PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+```
+
+```mermaid
+graph LR
+    A[Start] --> B[Process AI Data]
+    B --> C[Train Model]
+    C --> D[Deploy Model]
+    D --> E[Monitor Results]
+    E --> F[Refine Model]
+    F --> C
+```
+
+```vega-lite
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Reproducing http://robslink.com/SAS/democd91/pyramid_pie.htm",
+  "data": {
+    "values": [
+      {"category": "Sky", "value": 75, "order": 3},
+      {"category": "Shady side of a pyramid", "value": 10, "order": 1},
+      {"category": "Sunny side of a pyramid", "value": 15, "order": 2}
+    ]
+  },
+  "mark": {"type": "arc", "outerRadius": 80},
+  "encoding": {
+    "theta": {
+      "field": "value", "type": "quantitative",
+      "scale": {"range": [2.35619449, 8.639379797]},
+      "stack": true
+    },
+    "color": {
+      "field": "category", "type": "nominal",
+      "scale": {
+        "domain": ["Sky", "Shady side of a pyramid", "Sunny side of a pyramid"],
+        "range": ["#416D9D", "#674028", "#DEAC58"]
+      },
+      "legend": {
+        "orient": "none",
+        "title": null,
+        "columns": 1,
+        "legendX": 200,
+        "legendY": 80
+      }
+    },
+    "order": {
+      "field": "order"
+    }
+  }
+}
+
+```
 
 
 | Column 1       | Column 2                                   |
@@ -192,6 +280,7 @@ CALCULATE(
 )
 ```
 
+## check boxes
 
 ### check boxes
 - [ ] check1
