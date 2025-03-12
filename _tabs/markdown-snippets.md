@@ -103,13 +103,14 @@ Click on the @icon-camera icon to take a screen shot.
 ```mermaid
 architecture-beta
     group api(cloud)[API]
+    group pbi(cloud)
 
     service db(database)[Database] in api
-    service disk1(disk)[Storage] in api
+    service disk1(disk)[PowerBI] in pbi
     service disk2(disk)[Storage] in api
     service server(server)[Server] in api
 
-    db:L -- R:server
+    db:L --> R:disk1
     disk1:T -- B:server
     disk2:T -- B:db
 ```
