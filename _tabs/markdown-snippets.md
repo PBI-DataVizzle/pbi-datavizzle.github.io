@@ -9,11 +9,7 @@ mermaid: true
 
 ### [<i class="fas fa-database"></i>&ensp; Vega & Vega-Lite Data Source Repo &ensp; <i class="fas fa-external-link-alt"></i>](https://github.com/vega/vega/tree/main/docs/data)
 
-<html>
-<script type="text/javascript">
-  var vega_repo = "https://raw.githubusercontent.com/vega/vega/refs/heads/main/docs/";
-  </script>
-</html>
+
 
 ### Step <i class="fa-solid fa-1"></i>&ensp;
 
@@ -63,8 +59,11 @@ no removal
 {: .nolineno }
 
 <div class="thi-columns" markdown="1">
+
 ## lists
+
 ### bullets
+
 - item 1
 - item 2
 - item 3
@@ -147,7 +146,10 @@ graph LR
     F --> C
 ```
 
-```vega-lite
+<br>
+
+
+```json
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Reproducing http://robslink.com/SAS/democd91/pyramid_pie.htm",
@@ -186,6 +188,8 @@ graph LR
 }
 
 ```
+
+<br>
 
 
 | Column 1       | Column 2                                   |
@@ -291,27 +295,78 @@ CALCULATE(
 Define a Term
 : definition
 
+> [!NOTE]  
+Highlights information that users should take into account, even when skimming.
 
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+
+> **Note**
+> This is a note
+
+> **Warning**
+> This is a warning
+
+---
+
+## Simple alerts
+> [!NOTE]
+> This is a note.
+
+> [!TIP]
+> This is a tip. (Supported since 14 Nov 2023)
+
+> [!IMPORTANT]
+> Crutial information comes here.
+
+> [!CAUTION]
+> Negative potential consequences of an action. (Supported since 14 Nov 2023)
+
+> [!WARNING]
+> Critical content comes here.
+
+---
+
+> **⚠️ Warning**
+>
+> You shouldn't. This is irreversible!
+
+> **❌ Error**
+>
+> Don't do that. This is irreversible!
+
+> **ℹ️ Information**
+>
+> You can do that without problem.
+
+> **✅ Success**
+>
+> Don't hesitate to do that.
+
+> **🦄 New line support**
+> 
+> It supports new lines:
+>
+> .. simply use an empty `>` line
 
 {::options parse_block_html="true" /}
   <details><summary markdown="span"><b><i class="fa-solid fa-laptop-code" aria-hidden="true" style="color: orange"></i>&ensp;Dropdown</b></summary>
-    
+
+<br>
 
 ```jsonc
 
-{
+{ // WRITTEN IN DROPDOWN
     $schema: "https://vega.github.io/schema/vega-lite/v5.json",
     description: "A simple bar chart with embedded data.",
     data: {
       values: [
         {a: "A", b: 28}, /* comments */
         {a: "B", b: 55}, // comments2
-        {a: "C", b: 43},
-        {a: "D", b: 91},
-        {a: "E2", b: 81},
-        {a: "F", b: 53},
-        {a: "G", b: 19},
-        {a: "H", b: 87},
         {a: "I", b: 52}
       ]
     },
@@ -331,7 +386,7 @@ Define a Term
 
 ```jsonc
 
-{
+{ // WRITTEN IN MARKDOWN
     $schema: "https://vega.github.io/schema/vega-lite/v5.json",
     description: "A simple bar chart with embedded data.",
     data: {
@@ -707,330 +762,7 @@ text3
 > Add another markdown bit here
 {: .prompt-info }
 
-```sql
-SELECT 
-t.column1
-, t.column2
-, t.column3
-FROM table1 as t
-```
-
-
-```jsonc
-{
-/*comments*/
-  "data": {
-    "name": "dataset"
-  },
-  "title": {
-    "text": "BULLET CHART",
-    "anchor": "start"
-  },
-  "params": [
-    {
-      "name": "actual",
-      "value": 43000,
-      "bind": {
-        "input": "range",
-        "min": 10000,
-        "max": 60000,
-        "step": 1
-      }
-    },
-    {
-      "name": "budget",
-      "value": 100000,
-      "bind": {
-        "input": "range",
-        "min": 10000,
-        "max": 100000,
-        "step": 1
-      }
-    },
-    {
-      "name": "target",
-      "value": 40000,
-      "bind": {
-        "input": "range",
-        "min": 20000,
-        "max": 75000,
-        "step": 1
-      }
-    }
-  ],
-  "transform": [
-    {
-      "calculate": "max(actual,target,budget)",
-      "as": "max_label"
-    },
-    {
-      "calculate": "min(actual,target,budget)",
-      "as": "min_actual_label"
-    },
-    {
-      "calculate": "((actual - target) / target)",
-      "as": "label_var"
-    }
-  ],
-  "width": 450,
-  "height": 35,
-  "layer": [
-    {
-      "mark": {
-        "type": "bar",
-        "fill": "transparent",
-        "stroke": "transparent"
-      },
-      "encoding": {
-        "x": {
-          "datum": 100000,
-          "type": "quantitative"
-        },
-        "y": {
-          "datum": "",
-          "axis": {
-            "title": "",
-            "titlePadding": 10,
-            "titleBaseline": "middle",
-            "titleAngle": 0,
-            "titleAlign": "right"
-          }
-        }
-      }
-    },
-    {
-      "mark": {
-        "type": "bar",
-        "fill": "whitesmoke"
-      },
-      "encoding": {
-        "x": {
-          "datum": {
-            "expr": "budget"
-          },
-          "type": "quantitative"
-        }
-      }
-    },
-    {
-      "mark": {
-        "type": "bar",
-        "height": 20,
-        "fill": "lightblue",
-        "fillOpacity": 0.5
-      },
-      "encoding": {
-        "x": {
-          "datum": {
-            "expr": "actual"
-          },
-          "type": "quantitative"
-        }
-      }
-    },
-    {
-      "mark": {
-        "type": "bar",
-        "height": 10,
-        "yOffset": 5,
-        "fill": {
-          "expr": "actual > target ? 'limegreen' : 'crimson'"
-        }
-      },
-      "encoding": {
-        "x": {
-          "datum": {
-            "expr": "target"
-          },
-          "type": "quantitative"
-        },
-        "x2": {
-          "datum": {
-            "expr": "actual"
-          },
-          "type": "quantitative"
-        }
-      }
-    },
-    {
-      "mark": {
-        "type": "tick",
-        "size": 35,
-        "thickness": 5,
-        "fill": "black"
-      },
-      "encoding": {
-        "x": {
-          "datum": {
-            "expr": "target"
-          },
-          "type": "quantitative"
-        }
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "size": 16,
-        "thickness": 5,
-        "strokeWidth": 0.1,
-        "stroke": "black",
-        "fill": {
-          "expr": "actual > target ? 'darkgreen' : 'crimson'"
-        },
-        "align": "left",
-        "dx": 10,
-        "dy": 0.5
-      },
-      "encoding": {
-        "x": {
-          "datum": {
-            "expr": "max(actual,target)"
-          },
-          "type": "quantitative"
-        },
-        "text": {
-          "value": {
-            "expr": "format(((actual - target) / target), '+0.0%')"
-          },
-          "type": "quantitative",
-          "format": "+0.0%"
-        }
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "fontWeight": "bold",
-        "size": 15,
-        "thickness": 5,
-        "fill": "black",
-        "align": "right",
-        "baseline": "middle",
-        "dx": -10,
-        "dy": 0.5
-      },
-      "encoding": {
-        "x": {
-          "datum": {
-            "expr": "min(actual,target)"
-          },
-          "format": ",.3~s",
-          "type": "quantitative"
-        },
-        "text": {
-          "value": {
-            "expr": "format(actual, ',.3~s')"
-          },
-          "type": "quantitative",
-          "format": ",.3~s"
-        }
-      }
-    }
-  ],
-  "encoding": {
-    "x": {
-      "datum": 80000,
-      "type": "quantitative"
-    },
-    "y": {
-      "datum": "",
-      "axis": {
-        "title": "",
-        "titlePadding": 10,
-        "titleBaseline": "middle",
-        "titleAngle": 0,
-        "titleAlign": "right"
-      }
-    }
-  }
-}
-```
-
-<details>
-<summary>”What's the secret?”</summary>
-It's a dirty mess!
-</details>
 
 <br>
 
 ---
-
-<br>
-
-<details>
-
-  <summary>Click to expand</summary>
-
-  **This text is bold!**
-
-  You can use other Markdown features here too, like:
-
-  - **Bold list item**
-  - *Italic list item*
-  - [Links](https://example.com)
-
-</details>
-
-<br>
-
-> [!NOTE]  
-Highlights information that users should take into account, even when skimming.
-
-> [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
-
-> [!WARNING]  
-> Critical content demanding immediate user attention due to potential risks.
-
-
-> **Note**
-> This is a note
-
-> **Warning**
-> This is a warning
-
----
-
-## Simple alerts
-> [!NOTE]
-> This is a note.
-
-> [!TIP]
-> This is a tip. (Supported since 14 Nov 2023)
-
-> [!IMPORTANT]
-> Crutial information comes here.
-
-> [!CAUTION]
-> Negative potential consequences of an action. (Supported since 14 Nov 2023)
-
-> [!WARNING]
-> Critical content comes here.
-
----
-
-> **⚠️ Warning**
->
-> You shouldn't. This is irreversible!
-
-> **❌ Error**
->
-> Don't do that. This is irreversible!
-
-> **ℹ️ Information**
->
-> You can do that without problem.
-
-> **✅ Success**
->
-> Don't hesitate to do that.
-
-> **🦄 New line support**
-> 
-> It supports new lines:
->
-> .. simply use an empty `>` line
-
----
-

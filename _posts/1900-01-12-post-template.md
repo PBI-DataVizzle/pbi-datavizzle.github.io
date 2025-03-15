@@ -199,6 +199,14 @@ Here is the concept we will rebuild and better understand. The full script can b
 
 ## <i class="fa-solid fa-person-digging fa-2x" style="color: darkorange"></i>&ensp;Build
 
+<html>
+<div id="vis_concept"></div>
+  <script type="text/javascript">
+    var spec = {};
+    vegaEmbed('#vis_concept', spec);
+  </script>
+</html>
+
 <p style="text-align: center;">. . .</p> 
 
 ## <i class="fa-solid fa-file-code fa-2x" style="color: deepskyblue" ></i>&ensp;Code
