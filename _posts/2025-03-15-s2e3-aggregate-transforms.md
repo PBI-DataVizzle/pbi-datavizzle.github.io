@@ -2,9 +2,9 @@
 layout: post
 title: S2E3 - Aggregates and Facets
 date: 2025-03-15 08:37
-category: [Season-2, Charts, DataViz, Deneb, Vega-Lite, Walkthrough]
+category: [Season-2, Facets, Charts, DataViz, Deneb, Vega-Lite, Walkthrough]
 author: [A1, A2]
-tags: [season#, walkthrough]
+tags: [season2, walkthrough]
 summary: Walkthrough
 description: Demystify Vega-Lite Examples in this step-by-step rebuild 🕊️🧙🏼‍♂️✨
 image: 
@@ -542,7 +542,7 @@ In the Data Viewer, you will see the
 | 406            |
 
 
-![Aggregates](assets/img/deneb_walkthrough_images/s2e3/img1.png "Aggregates")
+![Aggregates](assets/img/deneb_walkthrough_images/s2e3/dataset_view.png "Data Viewer")
 
 As we've used the aggregate's `count` operation and we aren't grouping any fields, we return the result 406, as there are 406 rows in our dataset.
 
