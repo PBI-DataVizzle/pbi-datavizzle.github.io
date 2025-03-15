@@ -541,6 +541,7 @@ In the Data Viewer, you will see the
 | -------------- |
 | 406            |
 
+
 ![Aggregates](assets/img/deneb_walkthrough_images/s2e3/img1.png "Aggregates")
 
 As we've used the aggregate's `count` operation and we aren't grouping any fields, we return the result 406, as there are 406 rows in our dataset.
