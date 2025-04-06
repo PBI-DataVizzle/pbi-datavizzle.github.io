@@ -46,6 +46,10 @@ mermaid: true
 ## <i class="fa-solid fa-face-laugh-wink" aria-hidden="true"></i>&ensp;Level6
 
 
+[Link button](http://example.com/){: .btn }
+
+
+
 ```diff
 SELECT 
 t.column1
@@ -85,6 +89,17 @@ Click on the @icon-camera icon to take a screen shot.
 
 <p>Used on a button:</p>
 <button style="font-size:24px">Button <i class="fa fa-spinner"></i></button>
+
+
+<br>
+
+> **My Python Script**
+```python
+def hello():
+    print("Hello, world!")
+```
+
+<br>
 
 
 ```jsonc
@@ -274,6 +289,25 @@ FROM table1 as t
 {: .prompt-danger }
 
 [//]: # Collapsable Section
+
+
+### dax highlighter 
+```dax title= "dax title"
+Distinct Vertices Label Prop = 
+CALCULATE( 
+  COUNTROWS( DISTINCT( 'Vertices Label Prop'[id] ) )
+  , 'Vertices Label Prop'[Type] in {"User", "Group"} 
+)
+```
+
+
+```powerquery
+let
+  source = "sample text using prism.js"
+in
+  source
+```
+
 
 
 ### dax highlighter 
@@ -766,3 +800,23 @@ text3
 <br>
 
 ---
+
+
+```javascript
+function helloWorld() {
+    console.log("Hello, world!");
+}
+```
+
+<br>
+
+
+Alternatively, you can use HTML:
+
+```html
+<pre><code class="language-javascript">
+function helloWorld() {
+    console.log("Hello, world!");
+}
+</code></pre>
+```

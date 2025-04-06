@@ -199,6 +199,15 @@ Here is the concept we will rebuild and better understand. The full script can b
 
 ## <i class="fa-solid fa-person-digging fa-2x" style="color: darkorange"></i>&ensp;Build
 
+### Step 1:
+
+### Step 2:
+- count
+- distinct
+- sum
+- mean
+- median
+
 <html>
 <div id="vis_concept"></div>
   <script type="text/javascript">
@@ -210,6 +219,12 @@ Here is the concept we will rebuild and better understand. The full script can b
 <p style="text-align: center;">. . .</p> 
 
 ## <i class="fa-solid fa-file-code fa-2x" style="color: deepskyblue" ></i>&ensp;Code
+
+#### Single Aggregate Operation
+
+| standard_count |
+| -------------- |
+| 406            |
 
 <p style="text-align: center;">. . .</p> 
 
