@@ -586,7 +586,6 @@ In context, we will reuse the results of our previous `Aggregate` and `Join Aggr
 
 <br>
 
-
 ### Step 4: Create our DataViz
 
 This is our moment to piece everything together. Noone can stop this freight train 🚄
