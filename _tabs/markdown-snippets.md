@@ -309,6 +309,56 @@ in
 ```
 
 
+```fsharp
+// power query code
+Table.AddColumn(
+  v_date_serial, 
+  "rec_year", 
+  each [
+    calendar_year        = Date.Year([date_id]), 
+    current_year         = Date.Year(v_current_date), 
+    calendar_year_offset = calendar_year - current_year, 
+    is_year_complete     = if Date.EndOfYear([date_id]) < Date.EndOfYear(v_current_date) then 1 else 0, 
+    is_cmtd              = if ([date_id] <= Date.AddDays(Date.StartOfMonth(Date.From(v_current_date)), - 1)) then 1 else 0, 
+    is_ytd               = if ([date_id] <= Date.From(v_current_date)) then 1 else 0, 
+    is_frc               = if ([date_id] > Date.From(v_current_date)) then 1 else 0
+  ], 
+  type [
+    calendar_year        = Int64.Type, 
+    calendar_year_offset = Int64.Type, 
+    is_year_complete     = Int64.Type, 
+    is_cmtd              = Int64.Type, 
+    is_ytd               = Int64.Type, 
+    is_frc               = Int64.Type
+  ]
+)
+```
+
+```swift
+// power query code
+Table.AddColumn(
+  v_date_serial, 
+  "rec_year", 
+  each [
+    calendar_year        = Date.Year([date_id]), 
+    current_year         = Date.Year(v_current_date), 
+    calendar_year_offset = calendar_year - current_year, 
+    is_year_complete     = if Date.EndOfYear([date_id]) < Date.EndOfYear(v_current_date) then 1 else 0, 
+    is_cmtd              = if ([date_id] <= Date.AddDays(Date.StartOfMonth(Date.From(v_current_date)), - 1)) then 1 else 0, 
+    is_ytd               = if ([date_id] <= Date.From(v_current_date)) then 1 else 0, 
+    is_frc               = if ([date_id] > Date.From(v_current_date)) then 1 else 0
+  ], 
+  type [
+    calendar_year        = Int64.Type, 
+    calendar_year_offset = Int64.Type, 
+    is_year_complete     = Int64.Type, 
+    is_cmtd              = Int64.Type, 
+    is_ytd               = Int64.Type, 
+    is_frc               = Int64.Type
+  ]
+)
+```
+
 
 ### dax highlighter 
 ```ruby
